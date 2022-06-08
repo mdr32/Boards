@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "LDM-BB-K1986BE92QI")(type "KiCad")(uri "${KIPRJMOD}/footprints/LDM-BB-K1986BE92QI.pretty")(options "")(descr ""))
+)
