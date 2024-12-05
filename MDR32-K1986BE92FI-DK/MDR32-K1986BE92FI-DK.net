@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "/home/kich/Документы/MDR32/Boards/MDR32-K1986BE92FI-DK/MDR32-K1986BE92FI-DK.kicad_sch")
-    (date "2024-12-06T02:37:10+0300")
+    (date "2024-12-06T02:45:19+0300")
     (tool "Eeschema 8.0.7")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
