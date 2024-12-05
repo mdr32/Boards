@@ -11153,7 +11153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "02ab28e7-ef09-4c93-b28c-9dde77b4a401")
-		(property "Reference" "D6"
+		(property "Reference" "D5"
 			(at 200.9774 102.87 0)
 			(effects
 				(font
@@ -11207,7 +11207,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "D6")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -13410,9 +13410,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3a0986d0-8529-402c-9285-d747f4ff1044")
-		(property "Reference" "J7"
+		(property "Reference" "J1"
 			(at 199.39 34.2899 0)
 			(effects
 				(font
@@ -13430,7 +13429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 196.85 34.29 0)
 			(effects
 				(font
@@ -13472,7 +13471,7 @@
 		(instances
 			(project ""
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "J7")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -14116,7 +14115,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a81c81f-946a-4630-86a0-954c2402eba1")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR031"
 			(at 186.69 176.53 0)
 			(effects
 				(font
@@ -14166,7 +14165,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR032")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -14317,7 +14316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bd7e0f3-0b88-4d4b-bae3-a5509774dae8")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR032"
 			(at 189.23 33.02 0)
 			(effects
 				(font
@@ -14367,7 +14366,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR054")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -14449,7 +14448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e4317af-e816-4370-8a28-fdcf799a14e6")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR034"
 			(at 189.23 72.39 0)
 			(effects
 				(font
@@ -14499,7 +14498,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR033")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -17259,7 +17258,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd22ba2f-9389-4aee-9a7b-79577bfb9d33")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR033"
 			(at 189.23 48.26 0)
 			(effects
 				(font
@@ -17309,7 +17308,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR055")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
