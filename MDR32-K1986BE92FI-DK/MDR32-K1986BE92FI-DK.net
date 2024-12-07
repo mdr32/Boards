@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "/home/kich/Документы/MDR32/Boards/MDR32-K1986BE92FI-DK/MDR32-K1986BE92FI-DK.kicad_sch")
-    (date "2024-12-07T02:06:41+0300")
+    (date "2024-12-07T20:24:13+0300")
     (tool "Eeschema 8.0.7")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -324,10 +324,10 @@
       (tstamps "7563f5e0-0ddd-4e4f-bc79-22f4445a8d0a"))
     (comp (ref "J1")
       (value "Conn_PROBE")
-      (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+      (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal")
       (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
       (fields
-        (field (name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+        (field (name "Footprint") "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal")
         (field (name "Datasheet"))
         (field (name "Description") "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (libsource (lib "Connector_Generic") (part "Conn_01x04") (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"))
@@ -793,10 +793,10 @@
       (tstamps "dd6ba9ed-0d1d-47ee-a1d3-a328f94d13f7"))
     (comp (ref "SW1")
       (value "IT-1181")
-      (footprint "Button_Switch_SMD:SW_SPST_CK_RS282G05A3")
+      (footprint "Button_Switch_SMD:SW_SPST_B3U-1000P")
       (description "Push button switch, generic, two pins")
       (fields
-        (field (name "Footprint") "Button_Switch_SMD:SW_SPST_CK_RS282G05A3")
+        (field (name "Footprint") "Button_Switch_SMD:SW_SPST_B3U-1000P")
         (field (name "Datasheet"))
         (field (name "Description") "Push button switch, generic, two pins"))
       (libsource (lib "Switch") (part "SW_Push") (description "Push button switch, generic, two pins"))
@@ -822,10 +822,10 @@
       (tstamps "214f13a7-cf73-4631-9cf3-695c8510bb5b"))
     (comp (ref "SW3")
       (value "IT-1181")
-      (footprint "Button_Switch_SMD:SW_SPST_CK_RS282G05A3")
+      (footprint "Button_Switch_SMD:SW_SPST_B3U-1000P")
       (description "Push button switch, generic, two pins")
       (fields
-        (field (name "Footprint") "Button_Switch_SMD:SW_SPST_CK_RS282G05A3")
+        (field (name "Footprint") "Button_Switch_SMD:SW_SPST_B3U-1000P")
         (field (name "Datasheet"))
         (field (name "Description") "Push button switch, generic, two pins"))
       (libsource (lib "Switch") (part "SW_Push") (description "Push button switch, generic, two pins"))
