@@ -8575,9 +8575,10 @@
 		)
 	)
 	(footprint "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "8375d202-522e-4fd8-845e-38c70f3d2f97")
-		(at 20.72 27.46 -90)
+		(at 20.72 27.73 -90)
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
 		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
 		(property "Reference" "J4"
@@ -13670,6 +13671,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "17126edc-9dd4-4de8-bffd-3abc56fc8eb5")
 		(at 46.78 18.84 -90)
@@ -13897,7 +13899,7 @@
 			(uuid "e8ad0e8f-8cb4-4071-9b96-db14f24a792a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -19.05 360)
+			(at 0 -19.05 0)
 			(layer "B.Fab")
 			(uuid "3c5831bb-de28-40fd-ba89-7b76e9d654bc")
 			(effects
@@ -14097,6 +14099,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "4d874453-05f5-49ef-ba54-a1046c517ce1")
 		(at 18.84 18.84 -90)
@@ -14324,7 +14327,7 @@
 			(uuid "13defd45-2b46-4887-aad2-0f6b16853610")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -11.43 360)
+			(at 0 -11.43 0)
 			(layer "B.Fab")
 			(uuid "60fd11d0-5a09-403e-af23-b9308af95d6c")
 			(effects
@@ -14458,6 +14461,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "a3e28639-0107-4ab7-9ce9-cba275c75ff1")
 		(at 46.78 36.62 -90)
@@ -14685,7 +14689,7 @@
 			(uuid "39a7ae2b-62ec-47a0-b657-4a6260aebcc8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -19.05 360)
+			(at 0 -19.05 0)
 			(layer "B.Fab")
 			(uuid "576e446b-564d-48f8-b64b-690ece4c1f12")
 			(effects
@@ -14885,6 +14889,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "db5dcaba-8a4b-44e0-b391-eaf58750867e")
 		(at 18.84 36.62 -90)
@@ -15112,7 +15117,7 @@
 			(uuid "a1b0f03e-4090-4408-81b9-3273f2c00ace")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -11.43 360)
+			(at 0 -11.43 0)
 			(layer "B.Fab")
 			(uuid "a128d077-7138-4e28-b404-781534070116")
 			(effects
@@ -15248,6 +15253,7 @@
 	(gr_line
 		(start 86.68 37.46)
 		(end 86.68 18)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -15259,6 +15265,7 @@
 		(start 85.72 17.04)
 		(mid 86.398823 17.321177)
 		(end 86.68 18)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -15270,6 +15277,7 @@
 		(start 86.68 37.46)
 		(mid 86.398823 38.138823)
 		(end 85.72 38.42)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -15280,6 +15288,7 @@
 	(gr_line
 		(start 18 17.04)
 		(end 85.72 17.04)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -15291,6 +15300,7 @@
 		(start 18 38.42)
 		(mid 17.321177 38.138823)
 		(end 17.04 37.46)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -15302,6 +15312,7 @@
 		(start 17.04 18)
 		(mid 17.321177 17.321177)
 		(end 18 17.04)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -15312,6 +15323,7 @@
 	(gr_line
 		(start 17.04 18)
 		(end 17.04 37.46)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -15322,6 +15334,7 @@
 	(gr_line
 		(start 18 38.42)
 		(end 85.72 38.42)
+		(locked yes)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -15331,6 +15344,7 @@
 	)
 	(dimension
 		(type aligned)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "61aa0959-836e-4c70-bc2a-be26685f0bd4")
 		(pts
@@ -15338,6 +15352,7 @@
 		)
 		(height -69.64)
 		(gr_text "21,3800 mm"
+			(locked yes)
 			(at 87.89 27.73 90)
 			(layer "Dwgs.User")
 			(uuid "61aa0959-836e-4c70-bc2a-be26685f0bd4")
@@ -15364,6 +15379,7 @@
 	)
 	(dimension
 		(type aligned)
+		(locked yes)
 		(layer "Dwgs.User")
 		(uuid "d6abb025-ef99-4ab9-b2be-e1e1dd51182a")
 		(pts
@@ -15371,6 +15387,7 @@
 		)
 		(height 21.38)
 		(gr_text "69,6400 mm"
+			(locked yes)
 			(at 51.85 39.63 0)
 			(layer "Dwgs.User")
 			(uuid "d6abb025-ef99-4ab9-b2be-e1e1dd51182a")
