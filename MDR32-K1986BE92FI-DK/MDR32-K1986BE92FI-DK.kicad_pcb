@@ -387,7 +387,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "09beb2de-0502-4cc7-87ac-de36e321f47d")
-		(at 80.39 104.995)
+		(at 118.35 114.67)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C1"
@@ -2937,7 +2937,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "4440a21c-4099-454e-9655-4a5b1ddb7d9c")
-		(at 68.14 95.725)
+		(at 128.685 134.81)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R2"
@@ -4050,7 +4050,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 		(layer "F.Cu")
 		(uuid "4e3eebac-8df5-4ef0-bb1c-c622b4c4afb0")
-		(at 76.35 125)
+		(at 125.93 104.9)
 		(descr "module CMS SOT223 4 pins")
 		(tags "CMS SOT")
 		(property "Reference" "U1"
@@ -5945,7 +5945,7 @@
 	(footprint "Button_Switch_SMD:SW_SPST_CK_RS282G05A3"
 		(layer "F.Cu")
 		(uuid "5cce7f98-7959-4497-8334-3c48d2f828e3")
-		(at 88.12 122.095)
+		(at 145.39 130.82)
 		(descr "https://www.mouser.com/ds/2/60/RS-282G05A-SM_RT-1159762.pdf")
 		(tags "SPST button tactile switch")
 		(property "Reference" "SW1"
@@ -8578,7 +8578,7 @@
 		(locked yes)
 		(layer "F.Cu")
 		(uuid "8375d202-522e-4fd8-845e-38c70f3d2f97")
-		(at 20.72 27.73 -90)
+		(at 20.715 27.73 -90)
 		(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
 		(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
 		(property "Reference" "J4"
@@ -9171,7 +9171,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "895130f8-aa0c-4e79-be90-7b2b4e4216b6")
-		(at 68.14 93.215)
+		(at 154.535 134.9)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1"
@@ -9586,7 +9586,7 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "92ad3137-0492-4834-8d23-805367a79ee4")
-		(at 80.39 108.005)
+		(at 118.16 119.29)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
@@ -11077,7 +11077,7 @@
 	(footprint "LED_SMD:LED_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "dbf30c3d-f617-42ba-af4e-a65d1596b2da")
-		(at 89.29 131.34)
+		(at 128.74 137.9)
 		(descr "LED SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D3"
@@ -11525,7 +11525,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "e6c34cb4-7ac1-48d9-8223-1c409e49d68b")
-		(at 90.785 105.165)
+		(at 128.21 113.26)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D1"
@@ -12272,7 +12272,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "f5240c3d-ee81-4540-aee5-003ca7558c95")
-		(at 96.83 116.555)
+		(at 147.1725 136.41)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q1"
