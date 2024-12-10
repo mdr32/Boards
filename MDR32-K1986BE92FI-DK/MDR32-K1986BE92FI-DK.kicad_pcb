@@ -4669,7 +4669,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "586bd2c1-2765-494e-bfd9-729765d0c192")
-		(at 29.57 33.09)
+		(at 29.845 32.41)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R20"
@@ -11559,7 +11559,7 @@
 	(footprint "Button_Switch_SMD:SW_DIP_SPSTx02_Slide_Omron_A6H-2101_W6.15mm_P1.27mm"
 		(layer "F.Cu")
 		(uuid "f947c478-552f-46a5-9099-8e15f258bfe9")
-		(at 29.58 28.41 -90)
+		(at 29.845 27.73 -90)
 		(descr "SMD 2x-dip-switch SPST Omron_A6H-2101, Slide, row spacing 6.15 mm (242 mils), body size  (see https://www.omron.com/ecb/products/pdf/en-a6h.pdf)")
 		(tags "SMD DIP Switch SPST Slide 6.15mm 242mil")
 		(property "Reference" "SW2"
