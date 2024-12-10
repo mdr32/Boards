@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "MDR32-K1986BE92FI-DK")(type "KiCad")(uri "${KIPRJMOD}/MDR32-K1986BE92FI-DK.pretty")(options "")(descr ""))
-)

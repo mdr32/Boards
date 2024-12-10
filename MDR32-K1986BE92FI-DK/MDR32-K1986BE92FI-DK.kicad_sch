@@ -1808,178 +1808,6 @@
 				)
 			)
 		)
-		(symbol "Device:Battery_Cell"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "BT"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Battery_Cell"
-				(at 2.54 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 1.524 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single-cell battery"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "battery cell"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Battery_Cell_0_1"
-				(rectangle
-					(start -2.286 1.778)
-					(end 2.286 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.524 1.016)
-					(end 1.524 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.048) (xy 1.778 3.048)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.556) (xy 1.27 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Battery_Cell_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -6556,12 +6384,6 @@
 		(uuid "1b461961-c238-4e6c-92b8-62e3274ababf")
 	)
 	(junction
-		(at 236.22 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f3c347c-7c4e-4289-a7ed-4263cf36bcfe")
-	)
-	(junction
 		(at 109.22 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6863,7 +6685,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 176.53) (xy 166.37 177.8)
+			(xy 151.13 176.53) (xy 151.13 177.8)
 		)
 		(stroke
 			(width 0)
@@ -7183,16 +7005,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 58.42) (xy 236.22 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2233f99c-7c3f-473a-8a03-abca17e72358")
-	)
-	(wire
-		(pts
 			(xy 114.3 68.58) (xy 114.3 73.66)
 		)
 		(stroke
@@ -7370,16 +7182,6 @@
 			(type default)
 		)
 		(uuid "2c886662-730f-45d9-8889-0b2d40e7958e")
-	)
-	(wire
-		(pts
-			(xy 149.86 165.1) (xy 149.86 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cdacb70-2f18-4154-aa96-6e5e543190a7")
 	)
 	(wire
 		(pts
@@ -7863,16 +7665,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 176.53) (xy 149.86 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59fff179-c123-40e8-b5cf-5ea7c754b302")
-	)
-	(wire
-		(pts
 			(xy 246.38 134.62) (xy 246.38 147.32)
 		)
 		(stroke
@@ -8153,7 +7945,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 165.1) (xy 166.37 168.91)
+			(xy 151.13 165.1) (xy 151.13 168.91)
 		)
 		(stroke
 			(width 0)
@@ -8943,7 +8735,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 60.96) (xy 236.22 60.96)
+			(xy 233.68 60.96) (xy 237.49 60.96)
 		)
 		(stroke
 			(width 0)
@@ -9213,7 +9005,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 58.42) (xy 236.22 58.42)
+			(xy 237.49 58.42) (xy 233.68 58.42)
 		)
 		(stroke
 			(width 0)
@@ -9550,16 +9342,6 @@
 			(type default)
 		)
 		(uuid "ee063830-19be-4d5c-868a-33ec331b492a")
-	)
-	(wire
-		(pts
-			(xy 236.22 60.96) (xy 237.49 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f01d9e46-a1d4-4989-8835-d57f4d8585ff")
 	)
 	(wire
 		(pts
@@ -11803,15 +11585,15 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 234.95 85.09 90)
+		(at 233.68 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "12d9c5bc-43aa-42d6-8655-6e9bec8fb0dd")
-		(property "Reference" "#PWR042"
-			(at 238.76 85.09 0)
+		(property "Reference" "#PWR039"
+			(at 237.49 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11820,7 +11602,7 @@
 			)
 		)
 		(property "Value" "+BATT_SRC"
-			(at 231.14 85.09 90)
+			(at 229.87 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11829,7 +11611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 85.09 0)
+			(at 233.68 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11838,7 +11620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 85.09 0)
+			(at 233.68 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11847,7 +11629,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 234.95 85.09 0)
+			(at 233.68 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11861,7 +11643,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR042")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -11876,7 +11658,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13323a09-e22a-4459-9ccd-e4b039f075f1")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR028"
 			(at 180.34 134.62 0)
 			(effects
 				(font
@@ -11926,7 +11708,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR030")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -12605,7 +12387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fdc2f2b-7c88-4868-9b1e-0e5ca1e0ed38")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR040"
 			(at 227.33 60.96 0)
 			(effects
 				(font
@@ -12656,7 +12438,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR041")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -13611,15 +13393,15 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 166.37 165.1 0)
+		(at 151.13 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3afad676-64dc-4324-b7be-6affeb0c1d0b")
-		(property "Reference" "#PWR027"
-			(at 166.37 168.91 0)
+		(property "Reference" "#PWR024"
+			(at 151.13 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13628,7 +13410,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 166.37 160.02 0)
+			(at 151.13 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13636,7 +13418,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 165.1 0)
+			(at 151.13 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13645,7 +13427,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 165.1 0)
+			(at 151.13 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13654,7 +13436,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 166.37 165.1 0)
+			(at 151.13 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13668,7 +13450,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR027")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -13984,7 +13766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45f43371-9d09-40ef-92f5-637a8824e965")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR046"
 			(at 242.57 176.53 0)
 			(effects
 				(font
@@ -14034,7 +13816,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR048")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -14115,7 +13897,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48957f3f-dc70-415a-b47c-fcb09f916b09")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR037"
 			(at 215.9 134.62 0)
 			(effects
 				(font
@@ -14165,7 +13947,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR039")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -14181,7 +13963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4a81c81f-946a-4630-86a0-954c2402eba1")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR029"
 			(at 186.69 176.53 0)
 			(effects
 				(font
@@ -14231,7 +14013,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR031")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -14382,7 +14164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4bd7e0f3-0b88-4d4b-bae3-a5509774dae8")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR030"
 			(at 189.23 33.02 0)
 			(effects
 				(font
@@ -14432,7 +14214,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR032")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -14514,7 +14296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e4317af-e816-4370-8a28-fdcf799a14e6")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR032"
 			(at 189.23 72.39 0)
 			(effects
 				(font
@@ -14564,7 +14346,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR034")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -14944,7 +14726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "590b35d4-0533-4b0d-aa07-37f51caa6327")
-		(property "Reference" "C11"
+		(property "Reference" "C12"
 			(at 156.21 38.0999 0)
 			(effects
 				(font
@@ -14998,7 +14780,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "C11")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -15014,7 +14796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60dccc7c-fb8b-4023-90f0-d5664a03a66f")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR045"
 			(at 240.03 162.56 0)
 			(effects
 				(font
@@ -15064,7 +14846,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR047")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -15279,7 +15061,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6723d22e-3566-47f9-8f6e-99d0c623ef60")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR051"
 			(at 257.81 90.17 0)
 			(effects
 				(font
@@ -15330,7 +15112,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR052")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -15416,7 +15198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7469ee60-8022-4ee8-8bf8-813f218ca8fb")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR034"
 			(at 207.01 115.57 0)
 			(effects
 				(font
@@ -15466,7 +15248,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR036")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -15537,72 +15319,6 @@
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
 					(reference "F2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 149.86 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78c8d5aa-a145-4bfc-8337-b2ea14d13e51")
-		(property "Reference" "#PWR025"
-			(at 149.86 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.86 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 149.86 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c00809c-afe0-4fc0-8fdb-ab03803d0b2f")
-		)
-		(instances
-			(project "MDR32-K1986BE92FI-DK"
-				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -15830,7 +15546,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f4c11b8-a7f8-46d5-9b87-fa5ca6bb392b")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR044"
 			(at 236.22 128.27 0)
 			(effects
 				(font
@@ -15880,7 +15596,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR046")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -16019,76 +15735,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 149.86 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "82c76a5e-993c-463a-93ea-1edcc4e32155")
-		(property "Reference" "BT1"
-			(at 153.67 170.8784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "CR1220"
-			(at 153.67 173.4184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MDR32-K1986BE92FI-DK:MPD_BC501SM-TR"
-			(at 149.86 172.466 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 172.466 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single-cell battery"
-			(at 149.86 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30564c30-18e3-467c-9a00-d9cfee359121")
-		)
-		(pin "2"
-			(uuid "412fed92-b1b2-456d-97c9-795552cd0e4a")
-		)
-		(instances
-			(project "MDR32-K1986BE92FI-DK"
-				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "BT1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 214.63 172.72 0)
 		(unit 1)
@@ -16098,7 +15744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83cbbed0-0db0-40cb-8286-664036134845")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR036"
 			(at 214.63 176.53 0)
 			(effects
 				(font
@@ -16148,7 +15794,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR038")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -16156,7 +15802,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 166.37 172.72 0)
+		(at 151.13 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16164,8 +15810,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83f88d06-f758-4ac8-b8e6-11993de56c6e")
-		(property "Reference" "C12"
-			(at 170.18 171.4499 0)
+		(property "Reference" "C11"
+			(at 154.94 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16174,7 +15820,7 @@
 			)
 		)
 		(property "Value" "0.1µF"
-			(at 170.18 173.9899 0)
+			(at 154.94 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16183,7 +15829,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 167.3352 176.53 0)
+			(at 152.0952 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16192,7 +15838,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 172.72 0)
+			(at 151.13 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16201,7 +15847,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 166.37 172.72 0)
+			(at 151.13 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16218,7 +15864,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "C12")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -16452,7 +16098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f85cce4-381d-4b58-a6f7-89d84f702345")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR049"
 			(at 255.27 181.61 0)
 			(effects
 				(font
@@ -16502,7 +16148,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR051")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -16518,7 +16164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9495eeb8-6096-4519-93cd-350b48bffe11")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR042"
 			(at 238.76 87.63 0)
 			(effects
 				(font
@@ -16569,7 +16215,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR043")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -16920,7 +16566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fc7bfbd-52ae-4bfd-8ae3-db5618522a5f")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR050"
 			(at 267.97 87.63 0)
 			(effects
 				(font
@@ -16971,7 +16617,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR044")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -17038,6 +16684,73 @@
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 234.95 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a78f9e6d-12c4-4b39-a370-7edb309b7ff4")
+		(property "Reference" "#PWR041"
+			(at 228.6 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 85.0899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00a41aae-9014-4c20-a776-6361afc868ad")
+		)
+		(instances
+			(project "MDR32-K1986BE92FI-DK"
+				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -17258,7 +16971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd22ba2f-9389-4aee-9a7b-79577bfb9d33")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR031"
 			(at 189.23 48.26 0)
 			(effects
 				(font
@@ -17308,7 +17021,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR033")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -17324,7 +17037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdf5dbda-63cd-4bcf-91f3-af9b82de30ec")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR033"
 			(at 200.66 176.53 0)
 			(effects
 				(font
@@ -17374,7 +17087,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR035")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -17589,71 +17302,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 149.86 165.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bf4e60d8-62a0-4fed-9b33-2e66dbbc61c6")
-		(property "Reference" "#PWR024"
-			(at 149.86 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT_SRC"
-			(at 149.86 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 149.86 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "162b4986-cb90-4ccb-878f-39463bc1753d")
-		)
-		(instances
-			(project "MDR32-K1986BE92FI-DK"
-				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 234.95 90.17 270)
 		(unit 1)
@@ -17663,7 +17311,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1ec7ba9-0e54-4f89-befe-29715498717c")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR043"
 			(at 228.6 90.17 0)
 			(effects
 				(font
@@ -17714,7 +17362,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR045")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -17796,7 +17444,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c73827aa-589c-47a5-a335-0857e6753885")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR035"
 			(at 208.28 88.9 0)
 			(effects
 				(font
@@ -17846,7 +17494,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR037")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -17854,7 +17502,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 166.37 177.8 0)
+		(at 151.13 177.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17862,8 +17510,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c738e086-40b0-4f42-afe8-e5a30b0da0be")
-		(property "Reference" "#PWR028"
-			(at 166.37 184.15 0)
+		(property "Reference" "#PWR025"
+			(at 151.13 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17872,7 +17520,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 166.37 182.88 0)
+			(at 151.13 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17880,7 +17528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 166.37 177.8 0)
+			(at 151.13 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17889,7 +17537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 177.8 0)
+			(at 151.13 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17898,7 +17546,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 177.8 0)
+			(at 151.13 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17912,7 +17560,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR028")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -17994,7 +17642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9bdb119-8aa8-4c15-b6cf-a380d8677d35")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR038"
 			(at 228.6 176.53 0)
 			(effects
 				(font
@@ -18044,7 +17692,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR040")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -18059,7 +17707,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "caa4d5cb-ed5a-4a3a-9854-2ed7437a8431")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR027"
 			(at 170.18 134.62 0)
 			(effects
 				(font
@@ -18109,7 +17757,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR029")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -18844,7 +18492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0923456-2a93-4069-b14d-e4f451285753")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR052"
 			(at 275.59 162.56 0)
 			(effects
 				(font
@@ -18894,7 +18542,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR053")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -18910,7 +18558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f46a7fbd-0284-4997-bb7a-d4cdbd3bcc53")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR047"
 			(at 246.38 162.56 0)
 			(effects
 				(font
@@ -18960,7 +18608,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR049")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -19088,7 +18736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6c5d706-c1f0-4a00-b59a-c0035feea6a6")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR048"
 			(at 250.19 111.76 0)
 			(effects
 				(font
@@ -19138,7 +18786,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-DK"
 				(path "/5712a142-8ffb-41af-8f2a-b31937ef9df4"
-					(reference "#PWR050")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
