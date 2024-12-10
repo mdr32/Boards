@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "/home/kich/Projects/MDR32/Boards/MDR32-K1986BE92FI-DK/MDR32-K1986BE92FI-DK.kicad_sch")
-    (date "2024-12-10T19:23:49+0300")
+    (date "2024-12-10T19:28:10+0300")
     (tool "Eeschema 8.0.7")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -234,10 +234,10 @@
       (tstamps "1af51305-b1e5-4e74-b3b3-6a345b29f4e8"))
     (comp (ref "D3")
       (value "LED")
-      (footprint "LED_SMD:LED_0603_1608Metric")
+      (footprint "LED_SMD:LED_0805_2012Metric")
       (description "Light emitting diode")
       (fields
-        (field (name "Footprint") "LED_SMD:LED_0603_1608Metric")
+        (field (name "Footprint") "LED_SMD:LED_0805_2012Metric")
         (field (name "Datasheet"))
         (field (name "Description") "Light emitting diode"))
       (libsource (lib "Device") (part "LED") (description "Light emitting diode"))
@@ -265,10 +265,10 @@
       (tstamps "bedd04f2-bed6-406c-a0e2-534ef5f77c20"))
     (comp (ref "D5")
       (value "LED")
-      (footprint "LED_SMD:LED_0603_1608Metric")
+      (footprint "LED_SMD:LED_0805_2012Metric")
       (description "Light emitting diode")
       (fields
-        (field (name "Footprint") "LED_SMD:LED_0603_1608Metric")
+        (field (name "Footprint") "LED_SMD:LED_0805_2012Metric")
         (field (name "Datasheet"))
         (field (name "Description") "Light emitting diode"))
       (libsource (lib "Device") (part "LED") (description "Light emitting diode"))
