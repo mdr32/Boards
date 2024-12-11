@@ -10036,7 +10036,7 @@
 		(uuid "60aa8707-fc87-4284-a78d-ba37249398a4")
 	)
 	(label "nRESET"
-		(at 229.87 80.01 0)
+		(at 229.87 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10245,7 +10245,7 @@
 		(uuid "8666ac97-4982-459c-a23c-9610de8ce1fe")
 	)
 	(label "WAKEUP"
-		(at 229.87 82.55 0)
+		(at 229.87 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
