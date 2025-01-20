@@ -2,3 +2,6 @@
 *.lck
 *.bak
 *-backups
+
+*.zip
+*.7zip
