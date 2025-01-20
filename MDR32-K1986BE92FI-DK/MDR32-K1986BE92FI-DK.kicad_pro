@@ -494,7 +494,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "MDR32-K1986BE92FI-DK.net",
-      "plot": "",
+      "plot": "manufacture/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
