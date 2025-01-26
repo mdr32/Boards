@@ -11427,7 +11427,7 @@
 				)
 			)
 		)
-		(property "Value" "IT-1181"
+		(property "Value" "B3U-1000P"
 			(at 199.39 85.598 0)
 			(effects
 				(font
@@ -13748,7 +13748,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "10pF"
 			(at 135.89 40.6399 0)
 			(effects
 				(font
@@ -14446,7 +14446,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "10pF"
 			(at 156.21 40.6399 0)
 			(effects
 				(font
@@ -18197,7 +18197,7 @@
 				)
 			)
 		)
-		(property "Value" "IT-1181"
+		(property "Value" "B3U-1000P"
 			(at 60.96 171.45 0)
 			(effects
 				(font

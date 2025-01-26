@@ -4199,7 +4199,7 @@
 				)
 			)
 		)
-		(property "Value" "IT-1181"
+		(property "Value" "B3U-1000P"
 			(at 0 2.5 0)
 			(layer "F.Fab")
 			(uuid "178af08b-cd8b-4a25-803a-6c54d027ee93")
@@ -4463,7 +4463,7 @@
 				)
 			)
 		)
-		(property "Value" "IT-1181"
+		(property "Value" "B3U-1000P"
 			(at 0 2.5 0)
 			(layer "F.Fab")
 			(uuid "76824536-d865-44a8-902f-72f7eadb61b2")
@@ -7879,7 +7879,7 @@
 				)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "10pF"
 			(at 0 1.43 135)
 			(layer "F.Fab")
 			(uuid "68a11dc4-9df8-48b1-8b4c-4171f4ed1efd")
@@ -9211,7 +9211,7 @@
 				)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "10pF"
 			(at 0 1.43 135)
 			(layer "F.Fab")
 			(uuid "b952fc1a-7222-4c1a-8a55-f8714d636c7d")

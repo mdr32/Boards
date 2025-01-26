@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "/home/kich/Документы/MDR32/Boards/MDR32-K1986BE92FI-DK/MDR32-K1986BE92FI-DK.kicad_sch")
-    (date "2025-01-19T16:45:33+0300")
+    (date "2025-01-26T16:14:57+0300")
     (tool "Eeschema 8.0.8")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -111,7 +111,7 @@
       (sheetpath (names "/") (tstamps "/"))
       (tstamps "552812fd-6188-47ed-b9ea-652b7e4543ee"))
     (comp (ref "C7")
-      (value "12pF")
+      (value "10pF")
       (footprint "Capacitor_SMD:C_0603_1608Metric")
       (description "Unpolarized capacitor")
       (fields
@@ -186,7 +186,7 @@
       (sheetpath (names "/") (tstamps "/"))
       (tstamps "83f88d06-f758-4ac8-b8e6-11993de56c6e"))
     (comp (ref "C12")
-      (value "12pF")
+      (value "10pF")
       (footprint "Capacitor_SMD:C_0603_1608Metric")
       (description "Unpolarized capacitor")
       (fields
@@ -765,7 +765,7 @@
       (sheetpath (names "/") (tstamps "/"))
       (tstamps "dd6ba9ed-0d1d-47ee-a1d3-a328f94d13f7"))
     (comp (ref "SW1")
-      (value "IT-1181")
+      (value "B3U-1000P")
       (footprint "Button_Switch_SMD:SW_SPST_B3U-1000P")
       (description "Push button switch, generic, two pins")
       (fields
@@ -794,7 +794,7 @@
       (sheetpath (names "/") (tstamps "/"))
       (tstamps "214f13a7-cf73-4631-9cf3-695c8510bb5b"))
     (comp (ref "SW3")
-      (value "IT-1181")
+      (value "B3U-1000P")
       (footprint "Button_Switch_SMD:SW_SPST_B3U-1000P")
       (description "Push button switch, generic, two pins")
       (fields
