@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "/home/kich/Документы/MDR32/Boards/MDR32-K1986BE92FI-DK/MDR32-K1986BE92FI-DK.kicad_sch")
-    (date "2025-01-26T16:14:57+0300")
+    (date "2025-01-26T16:21:22+0300")
     (tool "Eeschema 8.0.8")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -825,10 +825,10 @@
       (tstamps "404fb1a1-953d-4a3b-a5cb-6f3ee6ceb95d"))
     (comp (ref "U2")
       (value "K1986BE92FI")
-      (footprint "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP7.5x7.5mm")
+      (footprint "MDR32-K1986BE92FI-DK:QFN-64-1EP_9x9mm_P0.5mm_EP7.5x7.5mm")
       (datasheet "https://github.com/mdr32")
       (fields
-        (field (name "Footprint") "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP7.5x7.5mm")
+        (field (name "Footprint") "MDR32-K1986BE92FI-DK:QFN-64-1EP_9x9mm_P0.5mm_EP7.5x7.5mm")
         (field (name "Datasheet") "https://github.com/mdr32")
         (field (name "Description")))
       (libsource (lib "MDR32-K1986BE92FI-DK") (part "K1986BE92FI") (description ""))

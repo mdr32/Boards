@@ -14925,7 +14925,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-64-1EP_9x9mm_P0.5mm_EP7.5x7.5mm"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:QFN-64-1EP_9x9mm_P0.5mm_EP7.5x7.5mm"
 			(at 50.8 145.034 0)
 			(effects
 				(font
