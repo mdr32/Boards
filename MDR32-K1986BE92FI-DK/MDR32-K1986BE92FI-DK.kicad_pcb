@@ -6601,17 +6601,17 @@
 			)
 		)
 	)
-	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+	(footprint "MDR32-K1986BE92FI-DK:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "7b18db3e-3c48-426c-9e70-db9ceeaee7ef")
 		(at 73.715 21.1)
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP2"
-			(at 1.455 2.01 0)
+			(at 0 -1.8 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ed8d612a-8598-47e7-8a05-7b6ed7cd7eae")
+			(uuid "d70ef797-8c55-464c-aaa0-254af3c02357")
 			(effects
 				(font
 					(size 1 1)
@@ -6622,7 +6622,7 @@
 		(property "Value" "Option X"
 			(at 0 1.9 0)
 			(layer "F.Fab")
-			(uuid "0e7fe0f5-7a83-4f35-9765-5e2a77eb78c5")
+			(uuid "b1bf979c-1021-4608-8459-1235f22286c0")
 			(effects
 				(font
 					(size 1 1)
@@ -6630,12 +6630,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9472b438-0bda-4a41-9fef-d866892a8342")
+			(uuid "a5be2f32-3802-44bc-b157-eb8c159582d7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6648,7 +6648,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9376500d-4255-4a20-8188-8e19f8993183")
+			(uuid "06161757-4044-4fdf-bf5f-0823187276e4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6661,7 +6661,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0456a4a8-5757-4d42-8bb4-84bfaa0b3637")
+			(uuid "4ffbb300-4e10-4470-b1f9-ced23be2631d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6683,7 +6683,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f2774c23-0bfc-4e67-b32f-544fd30d64b7")
+			(uuid "cddf08d0-1bca-46e3-9952-a0cdb5d6921a")
 		)
 		(fp_line
 			(start -1.4 1)
@@ -6693,7 +6693,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "11c75cb1-2005-48f3-acba-a47541c61ee1")
+			(uuid "f572b729-3920-4413-925c-0dbcdc68db60")
 		)
 		(fp_line
 			(start 1.4 -1)
@@ -6703,7 +6703,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "aff1cf8e-2f98-428a-97ac-228a8cdd88a3")
+			(uuid "07ecb02d-74f2-4c5b-8814-62c86cf00fd7")
 		)
 		(fp_line
 			(start 1.4 1)
@@ -6713,7 +6713,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bb608224-f208-4ad3-8f79-d83ab71efd16")
+			(uuid "34882978-4c0a-433b-aa1b-5f38ce9a2db6")
 		)
 		(fp_line
 			(start -1.65 -1.25)
@@ -6723,7 +6723,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a676b1d9-7675-4102-9dff-bec1329f04c3")
+			(uuid "87111b05-78b3-4b99-a124-dbd5b0836c6f")
 		)
 		(fp_line
 			(start -1.65 -1.25)
@@ -6733,7 +6733,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "f83c569d-41a8-4ad4-990c-cceff3a38c7d")
+			(uuid "affee0eb-60ea-49ae-9600-eaa37552a3a0")
 		)
 		(fp_line
 			(start 1.65 1.25)
@@ -6743,7 +6743,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "b33b851e-5550-4030-b9ea-16c9ffa403bc")
+			(uuid "a24fcc11-b12b-4b62-8821-89954411d9fc")
 		)
 		(fp_line
 			(start 1.65 1.25)
@@ -6753,7 +6753,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "8366ae39-63f3-4e27-8adc-19ccd466b187")
+			(uuid "9ab82818-cfb6-4415-9d1f-a6feade4d1f9")
 		)
 		(pad "1" smd custom
 			(at -0.725 0)
@@ -6777,7 +6777,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "5c7784f4-03db-4913-adf7-4fdec162f8c4")
+			(uuid "81aeb157-b9ff-410e-962d-fc2ccd628b23")
 		)
 		(pad "2" smd custom
 			(at 0.725 0)
@@ -6801,7 +6801,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "8299e73a-1bcf-4553-aace-aba6b7e16522")
+			(uuid "4c650d89-3321-4668-a85f-e3f52cc3310a")
 		)
 	)
 	(footprint "MDR32-K1986BE92FI-DK:R_0603_1608Metric"
@@ -7696,17 +7696,17 @@
 			)
 		)
 	)
-	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+	(footprint "MDR32-K1986BE92FI-DK:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 		(layer "F.Cu")
 		(uuid "8e403a07-3c30-4d4d-87ae-56a5c4e5be40")
 		(at 70.41 21.1)
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
-			(at 1.64 2.03 0)
+			(at 0 -1.8 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "1c8d9361-fa88-41cc-9e62-b43ede0a1bc1")
+			(uuid "24c9a93a-3bc7-4e77-b29b-bcdc9038751e")
 			(effects
 				(font
 					(size 1 1)
@@ -7717,7 +7717,7 @@
 		(property "Value" "Option X"
 			(at 0 1.9 0)
 			(layer "F.Fab")
-			(uuid "2ac80598-7fe7-47f9-b362-073cfaf240fe")
+			(uuid "2a6b471a-ac52-40e3-909f-ecb5b0fc5e1f")
 			(effects
 				(font
 					(size 1 1)
@@ -7725,12 +7725,12 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "57c4cc59-e1a3-42fe-a543-98869f0329c7")
+			(uuid "03def099-c4aa-4d9b-80ac-6cd94769970c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7743,7 +7743,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6071e5be-85fa-488e-b0dd-a168db1c2035")
+			(uuid "04ffc82f-3e54-41bc-a7ee-7673a597ff9a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7756,7 +7756,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "714703eb-e5f5-4d52-8cba-5d65f41d0bdf")
+			(uuid "2af3be91-0e45-43f9-8a56-f24c376435c3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7778,7 +7778,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "f2a20be8-41d1-4a2e-b655-702c4fb45386")
+			(uuid "13bb3b6c-c5e9-45e0-a32e-b36d7b44fa87")
 		)
 		(fp_line
 			(start -1.4 1)
@@ -7788,7 +7788,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0a2f8d69-7f28-45d7-a78a-ff76e470ef7b")
+			(uuid "fe587ea2-61f6-4ce4-9a72-4a7bc4db8a8e")
 		)
 		(fp_line
 			(start 1.4 -1)
@@ -7798,7 +7798,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "bc4cfcef-f8a0-40e3-a8a5-99e659ca2ecc")
+			(uuid "74ecf793-8474-47e5-b0c3-5a904b46f933")
 		)
 		(fp_line
 			(start 1.4 1)
@@ -7808,7 +7808,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1c4f8cd8-2084-4c0e-8d81-ea4ec73e9cf2")
+			(uuid "a4d32e67-347d-4465-a02f-a5d379b506e1")
 		)
 		(fp_line
 			(start -1.65 -1.25)
@@ -7818,7 +7818,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "620efd5c-13a9-43b1-890f-d3e55aeddac0")
+			(uuid "aba85c03-15ae-4a65-8811-2bb4eea5bb98")
 		)
 		(fp_line
 			(start -1.65 -1.25)
@@ -7828,7 +7828,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "ba962b39-d5e8-4051-8f24-8053c9ebdcc9")
+			(uuid "67be70ce-3ea2-4398-b5fa-6213752a2e94")
 		)
 		(fp_line
 			(start 1.65 1.25)
@@ -7838,7 +7838,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a5dd66e1-700c-4810-b819-c6b9524ec0fb")
+			(uuid "e4308636-7fe4-4dd7-b748-1c26b7271b37")
 		)
 		(fp_line
 			(start 1.65 1.25)
@@ -7848,7 +7848,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "6f955a10-abb6-445d-a10d-0a59555e84fd")
+			(uuid "ca3ec080-9f7a-40e3-90a0-2fcc64c99e46")
 		)
 		(pad "1" smd custom
 			(at -0.725 0)
@@ -7872,7 +7872,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "1178b8b3-ecca-40b9-a0e4-9196052746c0")
+			(uuid "181e18f0-0068-4e85-8f47-f7675a3cfd4f")
 		)
 		(pad "2" smd custom
 			(at 0.725 0)
@@ -7896,7 +7896,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "21eba358-f661-4e8e-99aa-498d268f56c9")
+			(uuid "b488f910-49ce-4bc7-aaa4-9b2fb3286228")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"

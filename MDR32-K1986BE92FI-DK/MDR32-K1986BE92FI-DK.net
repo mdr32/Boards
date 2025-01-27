@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "/home/kich/Документы/MDR32/Boards/MDR32-K1986BE92FI-DK/MDR32-K1986BE92FI-DK.kicad_sch")
-    (date "2025-01-27T05:41:01+0300")
+    (date "2025-01-28T01:39:46+0300")
     (tool "Eeschema 8.0.8")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -388,13 +388,13 @@
       (tstamps "525d1ae0-a356-4b21-af70-0d6429fa99ba"))
     (comp (ref "JP1")
       (value "Option X")
-      (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
+      (footprint "MDR32-K1986BE92FI-DK:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
       (description "Solder Jumper, 2-pole, open")
       (fields
-        (field (name "Footprint") "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
+        (field (name "Footprint") "MDR32-K1986BE92FI-DK:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
         (field (name "Datasheet"))
         (field (name "Description") "Solder Jumper, 2-pole, open"))
-      (libsource (lib "Jumper") (part "SolderJumper_2_Open") (description "Solder Jumper, 2-pole, open"))
+      (libsource (lib "MDR32-K1986BE92FI-DK") (part "SolderJumper_2_Open") (description "Solder Jumper, 2-pole, open"))
       (property (name "Sheetname") (value "Корневой лист"))
       (property (name "Sheetfile") (value "MDR32-K1986BE92FI-DK.kicad_sch"))
       (property (name "exclude_from_bom"))
@@ -404,13 +404,13 @@
       (tstamps "635ef9e6-867c-4b33-859e-145d1da438b4"))
     (comp (ref "JP2")
       (value "Option X")
-      (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
+      (footprint "MDR32-K1986BE92FI-DK:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
       (description "Solder Jumper, 2-pole, open")
       (fields
-        (field (name "Footprint") "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
+        (field (name "Footprint") "MDR32-K1986BE92FI-DK:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
         (field (name "Datasheet"))
         (field (name "Description") "Solder Jumper, 2-pole, open"))
-      (libsource (lib "Jumper") (part "SolderJumper_2_Open") (description "Solder Jumper, 2-pole, open"))
+      (libsource (lib "MDR32-K1986BE92FI-DK") (part "SolderJumper_2_Open") (description "Solder Jumper, 2-pole, open"))
       (property (name "Sheetname") (value "Корневой лист"))
       (property (name "Sheetfile") (value "MDR32-K1986BE92FI-DK.kicad_sch"))
       (property (name "exclude_from_bom"))
@@ -995,20 +995,6 @@
       (pins
         (pin (num "1") (name "") (type "passive"))
         (pin (num "2") (name "") (type "passive"))))
-    (libpart (lib "Jumper") (part "SolderJumper_2_Open")
-      (description "Solder Jumper, 2-pole, open")
-      (docs "~")
-      (footprints
-        (fp "SolderJumper*Open*"))
-      (fields
-        (field (name "Reference") "JP")
-        (field (name "Value") "SolderJumper_2_Open")
-        (field (name "Footprint"))
-        (field (name "Datasheet") "~")
-        (field (name "Description") "Solder Jumper, 2-pole, open"))
-      (pins
-        (pin (num "1") (name "A") (type "passive"))
-        (pin (num "2") (name "B") (type "passive"))))
     (libpart (lib "MDR32-K1986BE92FI-DK") (part "AO3401A")
       (description "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23")
       (docs "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf")
@@ -1217,6 +1203,20 @@
       (pins
         (pin (num "1") (name "1") (type "passive"))
         (pin (num "2") (name "2") (type "passive"))))
+    (libpart (lib "MDR32-K1986BE92FI-DK") (part "SolderJumper_2_Open")
+      (description "Solder Jumper, 2-pole, open")
+      (docs "~")
+      (footprints
+        (fp "SolderJumper*Open*"))
+      (fields
+        (field (name "Reference") "JP")
+        (field (name "Value") "SolderJumper_2_Open")
+        (field (name "Footprint"))
+        (field (name "Datasheet") "~")
+        (field (name "Description") "Solder Jumper, 2-pole, open"))
+      (pins
+        (pin (num "1") (name "A") (type "passive"))
+        (pin (num "2") (name "B") (type "passive"))))
     (libpart (lib "MDR32-K1986BE92FI-DK") (part "USB_C_Receptacle_USB2.0_16P")
       (description "USB 2.0-only 16P Type-C Receptacle connector")
       (docs "https://www.usb.org/sites/default/files/documents/usb_type-c.zip")
@@ -1251,8 +1251,6 @@
       (uri "/app/extensions/Library/symbols//Connector_Generic.kicad_sym"))
     (library (logical "Device")
       (uri "/app/extensions/Library/symbols//Device.kicad_sym"))
-    (library (logical "Jumper")
-      (uri "/app/extensions/Library/symbols//Jumper.kicad_sym"))
     (library (logical "MDR32-K1986BE92FI-DK")
       (uri "/home/kich/Документы/MDR32/Boards/MDR32-K1986BE92FI-DK/MDR32-K1986BE92FI-DK.kicad_sym")))
   (nets
