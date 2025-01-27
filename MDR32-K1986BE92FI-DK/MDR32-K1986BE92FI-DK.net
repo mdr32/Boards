@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "/home/kich/Документы/MDR32/Boards/MDR32-K1986BE92FI-DK/MDR32-K1986BE92FI-DK.kicad_sch")
-    (date "2025-01-26T16:21:22+0300")
+    (date "2025-01-27T04:02:01+0300")
     (tool "Eeschema 8.0.8")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -838,13 +838,13 @@
       (tstamps "725ed2f9-7e67-477f-8e5b-a77df546f7be"))
     (comp (ref "Y1")
       (value "SMD3225 P4  16MHz")
-      (footprint "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
+      (footprint "MDR32-K1986BE92FI-DK:Crystal_SMD_3225-4Pin_3.2x2.5mm")
       (description "Four pin crystal, GND on pins 2 and 4")
       (fields
-        (field (name "Footprint") "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm")
+        (field (name "Footprint") "MDR32-K1986BE92FI-DK:Crystal_SMD_3225-4Pin_3.2x2.5mm")
         (field (name "Datasheet"))
         (field (name "Description") "Four pin crystal, GND on pins 2 and 4"))
-      (libsource (lib "Device") (part "Crystal_GND24") (description "Four pin crystal, GND on pins 2 and 4"))
+      (libsource (lib "MDR32-K1986BE92FI-DK") (part "Crystal_GND24") (description "Four pin crystal, GND on pins 2 and 4"))
       (property (name "Sheetname") (value "Корневой лист"))
       (property (name "Sheetfile") (value "MDR32-K1986BE92FI-DK.kicad_sch"))
       (property (name "ki_keywords") (value "quartz ceramic resonator oscillator"))
@@ -853,13 +853,13 @@
       (tstamps "1e47b589-e8eb-4d95-8277-5a62b85803d7"))
     (comp (ref "Y2")
       (value "32.768KHz ±20ppm 6pF")
-      (footprint "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm")
+      (footprint "MDR32-K1986BE92FI-DK:Crystal_SMD_3215-2Pin_3.2x1.5mm")
       (description "Two pin crystal")
       (fields
-        (field (name "Footprint") "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm")
+        (field (name "Footprint") "MDR32-K1986BE92FI-DK:Crystal_SMD_3215-2Pin_3.2x1.5mm")
         (field (name "Datasheet"))
         (field (name "Description") "Two pin crystal"))
-      (libsource (lib "Device") (part "Crystal") (description "Two pin crystal"))
+      (libsource (lib "MDR32-K1986BE92FI-DK") (part "Crystal") (description "Two pin crystal"))
       (property (name "Sheetname") (value "Корневой лист"))
       (property (name "Sheetfile") (value "MDR32-K1986BE92FI-DK.kicad_sch"))
       (property (name "ki_keywords") (value "quartz ceramic resonator oscillator"))
@@ -990,36 +990,6 @@
       (pins
         (pin (num "1") (name "") (type "passive"))
         (pin (num "2") (name "") (type "passive"))))
-    (libpart (lib "Device") (part "Crystal")
-      (description "Two pin crystal")
-      (docs "~")
-      (footprints
-        (fp "Crystal*"))
-      (fields
-        (field (name "Reference") "Y")
-        (field (name "Value") "Crystal")
-        (field (name "Footprint"))
-        (field (name "Datasheet") "~")
-        (field (name "Description") "Two pin crystal"))
-      (pins
-        (pin (num "1") (name "1") (type "passive"))
-        (pin (num "2") (name "2") (type "passive"))))
-    (libpart (lib "Device") (part "Crystal_GND24")
-      (description "Four pin crystal, GND on pins 2 and 4")
-      (docs "~")
-      (footprints
-        (fp "Crystal*"))
-      (fields
-        (field (name "Reference") "Y")
-        (field (name "Value") "Crystal_GND24")
-        (field (name "Footprint"))
-        (field (name "Datasheet") "~")
-        (field (name "Description") "Four pin crystal, GND on pins 2 and 4"))
-      (pins
-        (pin (num "1") (name "1") (type "passive"))
-        (pin (num "2") (name "2") (type "passive"))
-        (pin (num "3") (name "3") (type "passive"))
-        (pin (num "4") (name "4") (type "passive"))))
     (libpart (lib "Device") (part "D_Filled")
       (description "Diode, filled shape")
       (docs "~")
@@ -1113,6 +1083,36 @@
       (pins
         (pin (num "1") (name "A") (type "passive"))
         (pin (num "2") (name "B") (type "passive"))))
+    (libpart (lib "MDR32-K1986BE92FI-DK") (part "Crystal")
+      (description "Two pin crystal")
+      (docs "~")
+      (footprints
+        (fp "Crystal*"))
+      (fields
+        (field (name "Reference") "Y")
+        (field (name "Value") "Crystal")
+        (field (name "Footprint") "MDR32-K1986BE92FI-DK:Crystal_SMD_3215-2Pin_3.2x1.5mm")
+        (field (name "Datasheet") "~")
+        (field (name "Description") "Two pin crystal"))
+      (pins
+        (pin (num "1") (name "1") (type "passive"))
+        (pin (num "2") (name "2") (type "passive"))))
+    (libpart (lib "MDR32-K1986BE92FI-DK") (part "Crystal_GND24")
+      (description "Four pin crystal, GND on pins 2 and 4")
+      (docs "~")
+      (footprints
+        (fp "Crystal*"))
+      (fields
+        (field (name "Reference") "Y")
+        (field (name "Value") "Crystal_GND24")
+        (field (name "Footprint") "MDR32-K1986BE92FI-DK:Crystal_SMD_3225-4Pin_3.2x2.5mm")
+        (field (name "Datasheet") "~")
+        (field (name "Description") "Four pin crystal, GND on pins 2 and 4"))
+      (pins
+        (pin (num "1") (name "1") (type "passive"))
+        (pin (num "2") (name "2") (type "passive"))
+        (pin (num "3") (name "3") (type "passive"))
+        (pin (num "4") (name "4") (type "passive"))))
     (libpart (lib "MDR32-K1986BE92FI-DK") (part "K1986BE92FI")
       (docs "https://github.com/mdr32")
       (fields
