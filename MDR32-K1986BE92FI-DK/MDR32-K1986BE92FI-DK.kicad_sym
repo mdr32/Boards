@@ -1810,7 +1810,7 @@
 			)
 		)
 	)
-	(symbol "LM1117MP-3.3"
+	(symbol "LM1117GS-3.3"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1831,7 +1831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:SOT-223"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1876,7 +1876,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "LM1117MP-3.3_0_1"
+		(symbol "LM1117GS-3.3_0_1"
 			(rectangle
 				(start -5.08 1.905)
 				(end 5.08 -5.08)
@@ -1889,7 +1889,7 @@
 				)
 			)
 		)
-		(symbol "LM1117MP-3.3_1_1"
+		(symbol "LM1117GS-3.3_1_1"
 			(pin power_in line
 				(at 0 -7.62 90)
 				(length 2.54)

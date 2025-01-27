@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "/home/kich/Документы/MDR32/Boards/MDR32-K1986BE92FI-DK/MDR32-K1986BE92FI-DK.kicad_sch")
-    (date "2025-01-27T04:02:01+0300")
+    (date "2025-01-27T04:29:06+0300")
     (tool "Eeschema 8.0.8")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -809,14 +809,14 @@
       (tstamps "105a1126-c891-4b8b-9bd5-8944389ef186"))
     (comp (ref "U1")
       (value "LM1117GS-3.3")
-      (footprint "Package_TO_SOT_SMD:SOT-223")
+      (footprint "MDR32-K1986BE92FI-DK:SOT-223")
       (datasheet "http://www.ti.com/lit/ds/symlink/lm1117.pdf")
       (description "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223")
       (fields
-        (field (name "Footprint") "Package_TO_SOT_SMD:SOT-223")
+        (field (name "Footprint") "MDR32-K1986BE92FI-DK:SOT-223")
         (field (name "Datasheet") "http://www.ti.com/lit/ds/symlink/lm1117.pdf")
         (field (name "Description") "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223"))
-      (libsource (lib "MDR32-K1986BE92FI-DK") (part "LM1117MP-3.3") (description "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223"))
+      (libsource (lib "MDR32-K1986BE92FI-DK") (part "LM1117GS-3.3") (description "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223"))
       (property (name "Sheetname") (value "Корневой лист"))
       (property (name "Sheetfile") (value "MDR32-K1986BE92FI-DK.kicad_sch"))
       (property (name "ki_keywords") (value "linear regulator ldo fixed positive"))
@@ -1187,7 +1187,7 @@
         (pin (num "63") (name "PA0") (type "bidirectional"))
         (pin (num "64") (name "GND") (type "power_in"))
         (pin (num "65") (name "PAD") (type "power_in"))))
-    (libpart (lib "MDR32-K1986BE92FI-DK") (part "LM1117MP-3.3")
+    (libpart (lib "MDR32-K1986BE92FI-DK") (part "LM1117GS-3.3")
       (description "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223")
       (docs "http://www.ti.com/lit/ds/symlink/lm1117.pdf")
       (footprints
@@ -1195,7 +1195,7 @@
       (fields
         (field (name "Reference") "U")
         (field (name "Value") "LM1117GS-3.3")
-        (field (name "Footprint") "Package_TO_SOT_SMD:SOT-223")
+        (field (name "Footprint") "MDR32-K1986BE92FI-DK:SOT-223")
         (field (name "Datasheet") "http://www.ti.com/lit/ds/symlink/lm1117.pdf")
         (field (name "Description") "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223"))
       (pins
