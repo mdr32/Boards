@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "/home/kich/Документы/MDR32/Boards/MDR32-K1986BE92FI-DK/MDR32-K1986BE92FI-DK.kicad_sch")
-    (date "2025-01-27T04:35:36+0300")
+    (date "2025-01-27T04:45:17+0300")
     (tool "Eeschema 8.0.8")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -303,7 +303,7 @@
         (field (name "Footprint") "MDR32-K1986BE92FI-DK:PinHeader_1x04_P2.54mm_Horizontal")
         (field (name "Datasheet"))
         (field (name "Description") "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"))
-      (libsource (lib "Connector_Generic") (part "Conn_01x04") (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"))
+      (libsource (lib "MDR32-K1986BE92FI-DK") (part "Conn_01x04") (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (property (name "Sheetname") (value "Корневой лист"))
       (property (name "Sheetfile") (value "MDR32-K1986BE92FI-DK.kicad_sch"))
       (property (name "ki_keywords") (value "connector"))
@@ -867,22 +867,6 @@
       (sheetpath (names "/") (tstamps "/"))
       (tstamps "d8fe0639-0032-4efd-85aa-368d97b9a552")))
   (libparts
-    (libpart (lib "Connector_Generic") (part "Conn_01x04")
-      (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
-      (docs "~")
-      (footprints
-        (fp "Connector*:*_1x??_*"))
-      (fields
-        (field (name "Reference") "J")
-        (field (name "Value") "Conn_01x04")
-        (field (name "Footprint"))
-        (field (name "Datasheet") "~")
-        (field (name "Description") "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"))
-      (pins
-        (pin (num "1") (name "Pin_1") (type "passive"))
-        (pin (num "2") (name "Pin_2") (type "passive"))
-        (pin (num "3") (name "Pin_3") (type "passive"))
-        (pin (num "4") (name "Pin_4") (type "passive"))))
     (libpart (lib "Connector_Generic") (part "Conn_01x10")
       (description "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)")
       (docs "~")
@@ -1054,6 +1038,22 @@
       (pins
         (pin (num "1") (name "A") (type "passive"))
         (pin (num "2") (name "B") (type "passive"))))
+    (libpart (lib "MDR32-K1986BE92FI-DK") (part "Conn_01x04")
+      (description "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)")
+      (docs "~")
+      (footprints
+        (fp "Connector*:*_1x??_*"))
+      (fields
+        (field (name "Reference") "J")
+        (field (name "Value") "Conn_01x04")
+        (field (name "Footprint") "MDR32-K1986BE92FI-DK:PinHeader_1x04_P2.54mm_Horizontal")
+        (field (name "Datasheet") "~")
+        (field (name "Description") "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"))
+      (pins
+        (pin (num "1") (name "Pin_1") (type "passive"))
+        (pin (num "2") (name "Pin_2") (type "passive"))
+        (pin (num "3") (name "Pin_3") (type "passive"))
+        (pin (num "4") (name "Pin_4") (type "passive"))))
     (libpart (lib "MDR32-K1986BE92FI-DK") (part "Crystal")
       (description "Two pin crystal")
       (docs "~")
