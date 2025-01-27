@@ -5,142 +5,6 @@
 	(uuid "5712a142-8ffb-41af-8f2a-b31937ef9df4")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "MDR32-K1986BE92FI-DK:AO3401A"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -748,6 +612,142 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MDR32-K1986BE92FI-DK:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10891,7 +10891,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "MDR32-K1986BE92FI-DK:C")
 		(at 133.35 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10918,7 +10918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:C_0603_1608Metric"
 			(at 134.3152 176.53 0)
 			(effects
 				(font
@@ -11163,7 +11163,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "MDR32-K1986BE92FI-DK:C")
 		(at 102.87 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11189,7 +11189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:C_0603_1608Metric"
 			(at 103.8352 93.98 0)
 			(effects
 				(font
@@ -12820,7 +12820,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "MDR32-K1986BE92FI-DK:C")
 		(at 149.86 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12846,7 +12846,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:C_0603_1608Metric"
 			(at 150.8252 86.36 0)
 			(effects
 				(font
@@ -13263,7 +13263,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "MDR32-K1986BE92FI-DK:C")
 		(at 19.05 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13290,7 +13290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:C_0805_2012Metric"
 			(at 20.0152 185.42 0)
 			(effects
 				(font
@@ -13400,7 +13400,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "MDR32-K1986BE92FI-DK:C")
 		(at 109.22 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13426,7 +13426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:C_0603_1608Metric"
 			(at 110.1852 176.53 0)
 			(effects
 				(font
@@ -13732,7 +13732,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "MDR32-K1986BE92FI-DK:C")
 		(at 132.08 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13758,7 +13758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:C_0603_1608Metric"
 			(at 133.0452 43.18 0)
 			(effects
 				(font
@@ -14226,7 +14226,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "MDR32-K1986BE92FI-DK:C")
 		(at 121.92 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14252,7 +14252,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:C_0603_1608Metric"
 			(at 122.8852 176.53 0)
 			(effects
 				(font
@@ -14429,7 +14429,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "MDR32-K1986BE92FI-DK:C")
 		(at 152.4 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14456,7 +14456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:C_0603_1608Metric"
 			(at 153.3652 43.18 0)
 			(effects
 				(font
@@ -15770,7 +15770,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "MDR32-K1986BE92FI-DK:C")
 		(at 151.13 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15797,7 +15797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:C_0603_1608Metric"
 			(at 152.0952 176.53 0)
 			(effects
 				(font
@@ -17730,7 +17730,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "MDR32-K1986BE92FI-DK:C")
 		(at 134.62 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17756,7 +17756,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:C_0603_1608Metric"
 			(at 135.5852 86.36 0)
 			(effects
 				(font
@@ -17911,7 +17911,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "MDR32-K1986BE92FI-DK:C")
 		(at 52.07 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17938,7 +17938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:C_0805_2012Metric"
 			(at 53.0352 185.42 0)
 			(effects
 				(font
