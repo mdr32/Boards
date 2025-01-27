@@ -663,7 +663,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "GREEN"
 			(at 0 1.65 -90)
 			(layer "F.Fab")
 			(uuid "00ff508a-6122-42f0-8fe4-44db543d5f6e")
@@ -2267,7 +2267,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "BLUE"
 			(at 0 1.65 90)
 			(layer "F.Fab")
 			(uuid "1b7e4eed-cd4f-47a4-9a5a-0c015da90f45")
@@ -2515,7 +2515,7 @@
 				)
 			)
 		)
-		(property "Value" "32.768KHz ±20ppm 6pF"
+		(property "Value" "NX3215SA 32.768KHz ±20ppm 6pF"
 			(at 0 2.000001 135)
 			(layer "F.Fab")
 			(uuid "5859ab98-be53-4d88-b4e0-f698aeb7627c")
@@ -3709,7 +3709,7 @@
 				)
 			)
 		)
-		(property "Value" "SMD3225 P4  16MHz"
+		(property "Value" "X322516MLB4SI SMD3225 P4  16MHz"
 			(at 0 2.450001 -135)
 			(layer "F.Fab")
 			(uuid "33a0657e-b016-4237-9272-a574d5a9254c")
@@ -12443,7 +12443,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x02"
+		(property "Value" "DHN-02-T-V"
 			(at 0 2.965 90)
 			(layer "F.Fab")
 			(uuid "f44d5517-5ba3-43f5-800b-b62204966d3b")
@@ -12934,7 +12934,7 @@
 				)
 			)
 		)
-		(property "Value" "22µF"
+		(property "Value" "T491A226K006AT 22µF"
 			(at 0 1.75 90)
 			(layer "F.Fab")
 			(uuid "bb46517a-1965-4125-b0aa-f2f954c9c21a")
@@ -13407,7 +13407,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+		(property "Value" "USB4105-GF-A USB2.0 16P"
 			(at 0 5 -90)
 			(unlocked yes)
 			(layer "F.Fab")

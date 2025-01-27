@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "/home/kich/Документы/MDR32/Boards/MDR32-K1986BE92FI-DK/MDR32-K1986BE92FI-DK.kicad_sch")
-    (date "2025-01-28T02:35:35+0300")
+    (date "2025-01-28T02:51:13+0300")
     (tool "Eeschema 8.0.8")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -51,7 +51,7 @@
       (sheetpath (names "/") (tstamps "/"))
       (tstamps "d864dbf8-0e69-4c82-bcd7-5d602076355b"))
     (comp (ref "C3")
-      (value "22µF")
+      (value "T491A226K006AT 22µF")
       (footprint "MDR32-K1986BE92FI-DK:CP_EIA-3216-18_Kemet-A")
       (description "Polarized capacitor")
       (fields
@@ -220,7 +220,7 @@
       (sheetpath (names "/") (tstamps "/"))
       (tstamps "8d8d0f5c-2fc3-4da5-8449-0d6166dd0727"))
     (comp (ref "D2")
-      (value "LED")
+      (value "GREEN")
       (footprint "MDR32-K1986BE92FI-DK:LED_0805_2012Metric")
       (description "Light emitting diode")
       (fields
@@ -251,7 +251,7 @@
       (sheetpath (names "/") (tstamps "/"))
       (tstamps "bedd04f2-bed6-406c-a0e2-534ef5f77c20"))
     (comp (ref "D4")
-      (value "LED")
+      (value "BLUE")
       (footprint "MDR32-K1986BE92FI-DK:LED_0805_2012Metric")
       (description "Light emitting diode")
       (fields
@@ -341,7 +341,7 @@
       (sheetpath (names "/") (tstamps "/"))
       (tstamps "419b2b41-019b-43d1-9806-8ef0f7ec8fa5"))
     (comp (ref "J4")
-      (value "USB_C_Receptacle_USB2.0_16P")
+      (value "USB4105-GF-A USB2.0 16P")
       (footprint "MDR32-K1986BE92FI-DK:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal")
       (datasheet "https://www.usb.org/sites/default/files/documents/usb_type-c.zip")
       (description "USB 2.0-only 16P Type-C Receptacle connector")
@@ -779,7 +779,7 @@
       (sheetpath (names "/") (tstamps "/"))
       (tstamps "e6840e92-e8cc-4457-bec9-dff6ab2a501a"))
     (comp (ref "SW2")
-      (value "SW_DIP_x02")
+      (value "DHN-02-T-V")
       (footprint "MDR32-K1986BE92FI-DK:SW_DIP_SPSTx02_Slide_Omron_A6H-2101_W6.15mm_P1.27mm")
       (description "2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol")
       (fields
@@ -837,7 +837,7 @@
       (sheetpath (names "/") (tstamps "/"))
       (tstamps "725ed2f9-7e67-477f-8e5b-a77df546f7be"))
     (comp (ref "Y1")
-      (value "SMD3225 P4  16MHz")
+      (value "X322516MLB4SI SMD3225 P4  16MHz")
       (footprint "MDR32-K1986BE92FI-DK:Crystal_SMD_3225-4Pin_3.2x2.5mm")
       (description "Four pin crystal, GND on pins 2 and 4")
       (fields
@@ -852,7 +852,7 @@
       (sheetpath (names "/") (tstamps "/"))
       (tstamps "1e47b589-e8eb-4d95-8277-5a62b85803d7"))
     (comp (ref "Y2")
-      (value "32.768KHz ±20ppm 6pF")
+      (value "NX3215SA 32.768KHz ±20ppm 6pF")
       (footprint "MDR32-K1986BE92FI-DK:Crystal_SMD_3215-2Pin_3.2x1.5mm")
       (description "Two pin crystal")
       (fields

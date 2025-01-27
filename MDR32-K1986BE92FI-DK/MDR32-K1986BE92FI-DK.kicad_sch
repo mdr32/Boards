@@ -10839,7 +10839,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "BLUE"
 			(at 198.755 109.855 0)
 			(effects
 				(font
@@ -11316,7 +11316,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+		(property "Value" "USB4105-GF-A USB2.0 16P"
 			(at 267.97 109.22 0)
 			(effects
 				(font
@@ -11892,7 +11892,7 @@
 				)
 			)
 		)
-		(property "Value" "SMD3225 P4  16MHz"
+		(property "Value" "X322516MLB4SI SMD3225 P4  16MHz"
 			(at 142.24 22.86 0)
 			(effects
 				(font
@@ -12166,7 +12166,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_DIP_x02"
+		(property "Value" "DHN-02-T-V"
 			(at 198.12 132.08 0)
 			(effects
 				(font
@@ -14838,7 +14838,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "67e91119-8c37-4967-92dc-f9e548c7c9d9")
 		(property "Reference" "C3"
 			(at 100.33 170.5609 0)
@@ -14849,8 +14848,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22µF"
-			(at 100.33 173.1009 0)
+		(property "Value" "T491A226K006AT 22µF"
+			(at 86.36 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16209,7 +16208,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "GREEN"
 			(at 87.63 184.4674 90)
 			(effects
 				(font
@@ -17997,7 +17996,7 @@
 				)
 			)
 		)
-		(property "Value" "32.768KHz ±20ppm 6pF"
+		(property "Value" "NX3215SA 32.768KHz ±20ppm 6pF"
 			(at 142.24 68.58 0)
 			(effects
 				(font
