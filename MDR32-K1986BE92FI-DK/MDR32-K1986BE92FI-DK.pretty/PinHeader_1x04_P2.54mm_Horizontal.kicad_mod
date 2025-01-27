@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at 4.385 -2.27 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "216014c9-0d9f-4547-832b-8ca9f31771f5")
 		(effects
 			(font
@@ -791,6 +792,18 @@
 		(uuid "6adc20d3-93c0-4920-a987-d46d179ca649")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Horizontal.wrl"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KIPRJMOD}/3dmodels/PinHeader_1x04_P2.54mm_Horizontal.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
