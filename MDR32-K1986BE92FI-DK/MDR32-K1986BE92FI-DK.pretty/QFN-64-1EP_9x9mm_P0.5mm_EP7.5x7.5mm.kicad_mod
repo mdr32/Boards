@@ -1061,6 +1061,18 @@
 		(zone_connect 2)
 		(uuid "a8712e70-e078-47c3-b62d-1870cb990c2e")
 	)
+	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-64-1EP_9x9mm_P0.5mm_EP7.5x7.5mm.wrl"
+		(hide yes)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 	(model "${KIPRJMOD}/3dmodels/QFN-64-1EP_9x9mm_P0.5mm_EP7.5x7.5mm.wrl"
 		(offset
 			(xyz 0 0 0)
