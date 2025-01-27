@@ -1693,127 +1693,6 @@
 				)
 			)
 		)
-		(symbol "Device:R"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Diode:BAT54C"
 			(pin_names
 				(offset 1.016)
@@ -4466,6 +4345,127 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "MDR32-K1986BE92FI-DK:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11231,7 +11231,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "MDR32-K1986BE92FI-DK:R")
 		(at 107.95 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11255,7 +11255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:R_0603_1608Metric"
 			(at 107.95 80.518 90)
 			(effects
 				(font
@@ -11609,7 +11609,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "MDR32-K1986BE92FI-DK:R")
 		(at 210.82 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11633,7 +11633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:R_0603_1608Metric"
 			(at 210.82 141.478 90)
 			(effects
 				(font
@@ -11676,7 +11676,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "MDR32-K1986BE92FI-DK:R")
 		(at 107.95 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11700,7 +11700,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:R_0603_1608Metric"
 			(at 107.95 39.878 90)
 			(effects
 				(font
@@ -11948,7 +11948,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "MDR32-K1986BE92FI-DK:R")
 		(at 107.95 48.26 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11972,7 +11972,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:R_0603_1608Metric"
 			(at 107.95 50.038 90)
 			(effects
 				(font
@@ -12289,7 +12289,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "MDR32-K1986BE92FI-DK:R")
 		(at 109.22 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12313,7 +12313,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:R_0603_1608Metric"
 			(at 109.22 116.078 90)
 			(effects
 				(font
@@ -12620,7 +12620,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "MDR32-K1986BE92FI-DK:R")
 		(at 107.95 68.58 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12644,7 +12644,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:R_0603_1608Metric"
 			(at 107.95 70.358 90)
 			(effects
 				(font
@@ -13332,7 +13332,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "MDR32-K1986BE92FI-DK:R")
 		(at 107.95 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13356,7 +13356,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:R_0603_1608Metric"
 			(at 107.95 85.598 90)
 			(effects
 				(font
@@ -14158,7 +14158,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "MDR32-K1986BE92FI-DK:R")
 		(at 107.95 53.34 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14182,7 +14182,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:R_0603_1608Metric"
 			(at 107.95 55.118 90)
 			(effects
 				(font
@@ -14294,7 +14294,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "MDR32-K1986BE92FI-DK:R")
 		(at 107.95 73.66 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14318,7 +14318,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:R_0603_1608Metric"
 			(at 107.95 75.438 90)
 			(effects
 				(font
@@ -14361,7 +14361,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "MDR32-K1986BE92FI-DK:R")
 		(at 109.22 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14385,7 +14385,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:R_0603_1608Metric"
 			(at 109.22 121.158 90)
 			(effects
 				(font
@@ -15293,7 +15293,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "MDR32-K1986BE92FI-DK:R")
 		(at 83.82 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15319,7 +15319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:R_0603_1608Metric"
 			(at 82.042 172.72 90)
 			(effects
 				(font
@@ -15362,7 +15362,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "MDR32-K1986BE92FI-DK:R")
 		(at 69.85 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15388,7 +15388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:R_0603_1608Metric"
 			(at 68.072 181.61 90)
 			(effects
 				(font
@@ -15839,7 +15839,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "MDR32-K1986BE92FI-DK:R")
 		(at 107.95 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15863,7 +15863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:R_0603_1608Metric"
 			(at 107.95 29.718 90)
 			(effects
 				(font
@@ -16458,7 +16458,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "MDR32-K1986BE92FI-DK:R")
 		(at 241.3 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16482,7 +16482,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:R_0603_1608Metric"
 			(at 241.3 112.522 90)
 			(effects
 				(font
@@ -16725,7 +16725,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "MDR32-K1986BE92FI-DK:R")
 		(at 191.77 106.68 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16751,7 +16751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:R_0603_1608Metric"
 			(at 191.77 108.458 90)
 			(effects
 				(font
@@ -16992,7 +16992,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "MDR32-K1986BE92FI-DK:R")
 		(at 107.95 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17016,7 +17016,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:R_0603_1608Metric"
 			(at 107.95 44.958 90)
 			(effects
 				(font
@@ -17133,7 +17133,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "MDR32-K1986BE92FI-DK:R")
 		(at 107.95 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17157,7 +17157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:R_0603_1608Metric"
 			(at 107.95 34.798 90)
 			(effects
 				(font
@@ -17662,7 +17662,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "MDR32-K1986BE92FI-DK:R")
 		(at 107.95 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17686,7 +17686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:R_0603_1608Metric"
 			(at 107.95 60.198 90)
 			(effects
 				(font
@@ -18047,7 +18047,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "MDR32-K1986BE92FI-DK:R")
 		(at 241.3 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18071,7 +18071,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:R_0603_1608Metric"
 			(at 241.3 118.872 90)
 			(effects
 				(font
@@ -18114,7 +18114,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "MDR32-K1986BE92FI-DK:R")
 		(at 107.95 63.5 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18138,7 +18138,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:R_0603_1608Metric"
 			(at 107.95 65.278 90)
 			(effects
 				(font
@@ -18314,7 +18314,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "MDR32-K1986BE92FI-DK:R")
 		(at 109.22 109.22 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18338,7 +18338,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:R_0603_1608Metric"
 			(at 109.22 110.998 90)
 			(effects
 				(font
@@ -18691,7 +18691,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "MDR32-K1986BE92FI-DK:R")
 		(at 189.23 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18717,7 +18717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "MDR32-K1986BE92FI-DK:R_0603_1608Metric"
 			(at 187.452 73.66 90)
 			(effects
 				(font
