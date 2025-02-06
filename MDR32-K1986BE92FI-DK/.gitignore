@@ -1,0 +1,9 @@
+*-cache
+*.lck
+*.bak
+*-backups
+
+*.zip
+*.7zip
+
+manufacture/*
