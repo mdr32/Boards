@@ -36,7 +36,7 @@
 
 ---
 
-## Фото платы:
+## Демо платы:
 
 
 ![Model front](img/model_front.jpg) ![Model back](img/model_back.jpg)
