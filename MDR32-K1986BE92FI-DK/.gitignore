@@ -1,6 +1,7 @@
 *-cache
 *.lck
 *.bak
+*-bak
 *-backups
 
 *.zip
