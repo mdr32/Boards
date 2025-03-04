@@ -4,6 +4,11 @@
 *-bak
 *-backups
 
+_autosave-*
+_autosave-*.kicad_sch
+\#auto_saved_files#
+\#test#
+
 *.zip
 *.7zip
 
