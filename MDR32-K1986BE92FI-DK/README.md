@@ -38,6 +38,9 @@
 
 ## Демо платы:
 
+Видеообзор платы от известного в узких кругах российского видеоблогера, смотрите на [YouTube](https://www.youtube.com/watch?v=NqpC7BkRngA) или [Rutube](https://rutube.ru/video/9d385670fd4b314179d501ec34238957/?r=wd).
+
+[![Смотреть видео на YouTube](https://img.youtube.com/vi/NqpC7BkRngA/0.jpg)](https://www.youtube.com/watch?v=NqpC7BkRngA)
 
 ![Model front](img/model_front.jpg) ![Model back](img/model_back.jpg)
 
