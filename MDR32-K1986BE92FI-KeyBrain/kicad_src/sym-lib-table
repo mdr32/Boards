@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "MDR32-K1986BE92FI-KeyBrain") (type "KiCad") (uri "${KIPRJMOD}/MDR32-K1986BE92FI-KeyBrain.kicad_sym") (options "") (descr ""))
+)
