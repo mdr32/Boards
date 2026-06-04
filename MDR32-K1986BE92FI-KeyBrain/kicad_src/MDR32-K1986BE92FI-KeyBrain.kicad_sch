@@ -13645,7 +13645,7 @@
 		)
 		(uuid "6b45f4bf-08b2-4a65-a38c-c29f321c5f66")
 	)
-	(label "JBTCK"
+	(label "CLK"
 		(at 184.15 46.99 0)
 		(effects
 			(font
@@ -13775,7 +13775,7 @@
 		)
 		(uuid "bb8f3c45-c50c-4844-995a-e5db5975f90f")
 	)
-	(label "JBTMS"
+	(label "DIO"
 		(at 184.15 44.45 0)
 		(effects
 			(font
