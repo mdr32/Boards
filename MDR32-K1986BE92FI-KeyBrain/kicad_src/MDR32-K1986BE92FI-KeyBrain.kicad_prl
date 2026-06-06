@@ -23,8 +23,8 @@
       "keepouts": true,
       "lockedItems": false,
       "otherItems": true,
-      "pads": true,
-      "text": true,
+      "pads": false,
+      "text": false,
       "tracks": true,
       "vias": true,
       "zones": true
@@ -33,7 +33,7 @@
       "vias",
       "footprint_text",
       "footprint_anchors",
-      "grid",
+      "ratsnest",
       "footprints_front",
       "footprints_back",
       "footprint_values",
@@ -52,8 +52,8 @@
       "board_outline_area",
       "ly_points"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
-    "zone_display_mode": 0
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffff5f",
+    "zone_display_mode": 1
   },
   "git": {
     "integration_disabled": false,
