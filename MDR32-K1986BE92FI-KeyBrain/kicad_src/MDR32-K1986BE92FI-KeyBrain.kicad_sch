@@ -15213,7 +15213,7 @@
 		)
 		(uuid "6b45f4bf-08b2-4a65-a38c-c29f321c5f66")
 	)
-	(label "SWCLK"
+	(label "CLK"
 		(at 113.03 54.61 180)
 		(effects
 			(font
@@ -15233,7 +15233,7 @@
 		)
 		(uuid "734b39d4-db25-4a7a-9276-2ba35eca6649")
 	)
-	(label "SWDIO"
+	(label "DIO"
 		(at 27.94 100.33 180)
 		(effects
 			(font
@@ -15423,7 +15423,7 @@
 		)
 		(uuid "b11d1020-1b7d-4145-aea8-6f464f6dc970")
 	)
-	(label "SWDIO"
+	(label "DIO"
 		(at 113.03 52.07 180)
 		(effects
 			(font
@@ -15513,7 +15513,7 @@
 		)
 		(uuid "d4311b94-f4f4-4b12-b89c-cb8557543294")
 	)
-	(label "SWDIO"
+	(label "CLK"
 		(at 27.94 106.68 180)
 		(effects
 			(font
