@@ -5871,6 +5871,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 31.75) (xy 124.46 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025258e9-573f-4ef5-9f6b-4f079a8e3aa4")
+	)
+	(wire
+		(pts
 			(xy 46.99 44.45) (xy 48.26 44.45)
 		)
 		(stroke
@@ -15328,6 +15338,16 @@
 		)
 		(uuid "497926e8-bed0-4c98-9685-8af4af2aca4d")
 	)
+	(label "USRLED"
+		(at 113.03 31.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "53a8d0e7-4e27-4135-8580-f2bac661379e")
+	)
 	(label "9{slash}RX1"
 		(at 167.64 26.67 0)
 		(effects
@@ -15499,7 +15519,7 @@
 		(uuid "8077974e-83ca-4ff7-a7fe-eeb37f63dd08")
 	)
 	(label "2{slash}SDA"
-		(at 113.03 80.01 180)
+		(at 113.03 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15639,7 +15659,7 @@
 		(uuid "b04e43c5-21a5-440e-beae-6850ed55af52")
 	)
 	(label "3{slash}SCL"
-		(at 113.03 82.55 180)
+		(at 113.03 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
