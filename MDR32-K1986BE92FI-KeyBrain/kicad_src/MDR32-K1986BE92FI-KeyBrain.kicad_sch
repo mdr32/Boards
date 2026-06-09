@@ -16824,7 +16824,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
 			(at 223.52 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -18597,7 +18597,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
 			(at 207.01 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -21616,7 +21616,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
 			(at 238.76 40.64 0)
 			(hide yes)
 			(show_name no)
