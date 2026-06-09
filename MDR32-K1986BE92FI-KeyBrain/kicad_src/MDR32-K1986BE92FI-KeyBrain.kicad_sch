@@ -5572,7 +5572,7 @@
 		(uuid "72dcc18c-301a-4ad8-8617-674c48bbb983")
 	)
 	(rectangle
-		(start 20.32 120.65)
+		(start 20.32 127)
 		(end 49.53 133.35)
 		(stroke
 			(width 0)
@@ -5585,7 +5585,7 @@
 	)
 	(text "*3"
 		(exclude_from_sim no)
-		(at 18.288 120.904 0)
+		(at 18.542 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
