@@ -668,7 +668,7 @@
         "uuid": "bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
       }
     ],
-    "used_designators": "R10-11",
+    "used_designators": "#PWR32-39,JP2-6,R10-11",
     "variants": []
   },
   "sheets": [
