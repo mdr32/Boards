@@ -484,7 +484,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "MDR32-K1986BE92FI-KeyBrain"
+    ],
     "pinned_symbol_libs": [
       "MDR32-K1986BE92FI-KeyBrain"
     ]
@@ -668,7 +670,7 @@
         "uuid": "bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
       }
     ],
-    "used_designators": "Y2,J3-4",
+    "used_designators": "U5,Y2,J3-4",
     "variants": []
   },
   "sheets": [
