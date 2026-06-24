@@ -18886,7 +18886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "nrfmicro:USB-C_C168688"
+		(property "Footprint" "MDR32-K1986BE92FI-KeyBrain:USB-C_C168688"
 			(at 31.9278 22.225 0)
 			(show_name no)
 			(do_not_autoplace no)
