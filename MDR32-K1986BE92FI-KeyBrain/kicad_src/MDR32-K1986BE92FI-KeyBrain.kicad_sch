@@ -1299,7 +1299,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MDR32-K1986BE92FI-DK:Crystal_GND24"
+		(symbol "MDR32-K1986BE92FI-KeyBrain:Crystal_GND24"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1331,7 +1331,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "MDR32-K1986BE92FI-DK:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+			(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1356,6 +1356,28 @@
 			(property "Description" "Four pin crystal, GND on pins 2 and 4"
 				(at 0 0 0)
 				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+				(at 0 -12.7 0)
+				(show_name yes)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+				(at 0 -15.24 0)
+				(show_name yes)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
@@ -1448,18 +1470,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.556) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 -3.81) (xy 0 -3.556)
 					)
 					(stroke
@@ -1515,9 +1525,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 5.08 270)
+					(at 0 -5.08 90)
 					(length 1.27)
-					(name "2"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1553,7 +1563,8 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 1.27)
-					(name "4"
+					(hide yes)
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5603,12 +5614,6 @@
 		(uuid "579d9afd-6814-4f06-9963-458af180bcd8")
 	)
 	(junction
-		(at 78.74 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62a5dc68-c4f9-4595-8712-804761863875")
-	)
-	(junction
 		(at 46.99 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6034,7 +6039,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 125.73) (xy 78.74 127)
+			(xy 78.74 125.73) (xy 78.74 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6664,16 +6669,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 127) (xy 83.82 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a85e549-ba6d-4eb3-9a0c-a85974afb25f")
-	)
-	(wire
-		(pts
 			(xy 53.34 171.45) (xy 55.88 171.45)
 		)
 		(stroke
@@ -6681,16 +6676,6 @@
 			(type default)
 		)
 		(uuid "7bc80ce8-e89c-4ea0-b30c-fea19dd4eda3")
-	)
-	(wire
-		(pts
-			(xy 83.82 114.3) (xy 83.82 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c3518a3-bcbd-4284-8dba-5c4b5ebac656")
 	)
 	(wire
 		(pts
@@ -6971,16 +6956,6 @@
 			(type default)
 		)
 		(uuid "a0e3a856-7538-41ac-b29c-d3e6e8e38f72")
-	)
-	(wire
-		(pts
-			(xy 78.74 114.3) (xy 83.82 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4c2752e-1a8f-43ec-84f9-e07009a95a18")
 	)
 	(wire
 		(pts
@@ -7344,16 +7319,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 127) (xy 78.74 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4f69442-0be4-42e8-ad26-660d891b4168")
-	)
-	(wire
-		(pts
 			(xy 143.51 173.99) (xy 143.51 179.07)
 		)
 		(stroke
@@ -7571,16 +7536,6 @@
 			(type default)
 		)
 		(uuid "f78b6396-4100-484b-a5f9-5b079c0f1d46")
-	)
-	(wire
-		(pts
-			(xy 78.74 115.57) (xy 78.74 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f82ebb32-54c5-4a3a-8422-894a38df40f2")
 	)
 	(wire
 		(pts
@@ -16212,6 +16167,114 @@
 		)
 	)
 	(symbol
+		(lib_id "MDR32-K1986BE92FI-KeyBrain:Crystal_GND24")
+		(at 78.74 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a6531dc-81c0-4567-9dc4-cb649d6d84df")
+		(property "Reference" "Y1"
+			(at 78.74 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "8MHz"
+			(at 78.74 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
+			(at 78.74 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+			(at 78.74 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+			(at 78.74 133.35 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+			(at 78.74 135.89 0)
+			(hide yes)
+			(show_name yes)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c80c96a0-b83d-40c2-b11f-2be5a4a6f99c")
+		)
+		(pin "3"
+			(uuid "e958a02b-193a-466a-b7fe-c535a777b292")
+		)
+		(pin "4"
+			(uuid "82a568d7-bec1-472a-921b-656fc66846c7")
+		)
+		(pin "2"
+			(uuid "11f2f589-24a3-4826-a483-77d7f549f4a5")
+		)
+		(instances
+			(project "MDR32-K1986BE92FI-KeyBrain"
+				(path "/bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 24.13 177.8 0)
 		(unit 1)
@@ -19032,91 +19095,6 @@
 			(project "MDR32-K1986BE92FI-KeyBrain"
 				(path "/bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MDR32-K1986BE92FI-DK:Crystal_GND24")
-		(at 78.74 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9cfa1f57-ba12-4c12-8182-7338c0d326e4")
-		(property "Reference" "Y1"
-			(at 78.74 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "8MHz"
-			(at 78.74 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
-			(at 78.74 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
-			(at 78.74 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "78d8a94f-9233-494d-b6f9-81e1221e9db2")
-		)
-		(pin "3"
-			(uuid "29d7ee7e-8be0-4619-8d7f-984f1a57bc95")
-		)
-		(pin "1"
-			(uuid "4adc8c9e-4772-49c9-9ee7-ac0fb3129136")
-		)
-		(pin "2"
-			(uuid "5d02138a-a25d-44d6-9530-ddf3cebde05e")
-		)
-		(instances
-			(project "MDR32-K1986BE92FI-KeyBrain"
-				(path "/bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
-					(reference "Y1")
 					(unit 1)
 				)
 			)
