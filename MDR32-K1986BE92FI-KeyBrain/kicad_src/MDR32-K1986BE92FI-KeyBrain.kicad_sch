@@ -5527,30 +5527,6 @@
 		)
 		(uuid "72dcc18c-301a-4ad8-8617-674c48bbb983")
 	)
-	(rectangle
-		(start 20.32 127)
-		(end 49.53 133.35)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "ba924699-ea39-45b0-8094-53401800d397")
-	)
-	(text "*3"
-		(exclude_from_sim no)
-		(at 18.542 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-		)
-		(uuid "02036e59-a3b2-4947-aed1-8c5839971403")
-	)
 	(text "USB"
 		(exclude_from_sim no)
 		(at 59.436 17.272 0)
@@ -5752,12 +5728,6 @@
 		(uuid "95d37cb1-48f9-438c-989b-53248a6ff3e4")
 	)
 	(junction
-		(at 46.99 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "980babba-fc09-4749-96ee-4090eb94c031")
-	)
-	(junction
 		(at 46.99 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5796,6 +5766,10 @@
 	(no_connect
 		(at 154.94 49.53)
 		(uuid "14974416-915a-4f6e-be1f-887965ebbb44")
+	)
+	(no_connect
+		(at 124.46 110.49)
+		(uuid "1a2e1fb5-ae57-424f-b15e-3a153a6d4d4c")
 	)
 	(no_connect
 		(at 44.45 54.61)
@@ -6131,16 +6105,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 130.81) (xy 35.56 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "290a8bac-6e90-4322-a624-dc69c9c0b1b6")
-	)
-	(wire
-		(pts
 			(xy 154.94 80.01) (xy 167.64 80.01)
 		)
 		(stroke
@@ -6318,16 +6282,6 @@
 			(type default)
 		)
 		(uuid "3d0789e8-d06f-4096-a498-1e41338a76a9")
-	)
-	(wire
-		(pts
-			(xy 46.99 130.81) (xy 46.99 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3dbdc03f-b3d5-408f-bc1b-846b7dfb4cd6")
 	)
 	(wire
 		(pts
@@ -6588,16 +6542,6 @@
 			(type default)
 		)
 		(uuid "5f92d9c4-c185-4e52-ba6c-3448c1c88a8d")
-	)
-	(wire
-		(pts
-			(xy 124.46 110.49) (xy 113.03 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61a5a814-a11d-4bac-970f-fcdbe166705e")
 	)
 	(wire
 		(pts
@@ -7378,16 +7322,6 @@
 			(type default)
 		)
 		(uuid "ccb2ec3a-d664-47b4-9cc3-953d10a4b642")
-	)
-	(wire
-		(pts
-			(xy 43.18 130.81) (xy 46.99 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cccf5761-94fe-4def-bfca-cd5ceebfbf4b")
 	)
 	(wire
 		(pts
@@ -15258,16 +15192,6 @@
 		)
 		(uuid "2115f3c0-942b-4d14-a2ce-cfa0d05e4471")
 	)
-	(label "WAKEUP"
-		(at 30.48 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2badab17-8c36-45d5-8657-c21e7b9b9f77")
-	)
 	(label "USRLED"
 		(at 93.98 86.36 0)
 		(effects
@@ -15628,16 +15552,6 @@
 		)
 		(uuid "9c4afd39-4ae3-4455-a3a6-940245cc5a00")
 	)
-	(label "WAKEUP"
-		(at 113.03 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a0012fa7-6172-4db9-82c3-28139c52be2a")
-	)
 	(label "23{slash}SPI_COPI"
 		(at 167.64 80.01 0)
 		(effects
@@ -15940,7 +15854,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0528c1e8-febd-4deb-b73d-203d08b437b0")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR027"
 			(at 166.37 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -16000,7 +15914,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-KeyBrain"
 				(path "/bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
-					(reference "#PWR038")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -16643,7 +16557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2532472a-0deb-4950-aa97-b1bacf8ba1dc")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 228.6 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -16703,7 +16617,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-KeyBrain"
 				(path "/bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -16799,7 +16713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "38948a28-ddc9-442b-b5bb-7cef55c5f0e1")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG03"
 			(at 166.37 172.085 0)
 			(hide yes)
 			(show_name no)
@@ -16859,7 +16773,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-KeyBrain"
 				(path "/bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
-					(reference "#FLG02")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -17198,7 +17112,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41c4aaa6-d1c4-474d-a240-54a0a33547ee")
-		(property "Reference" "R9"
+		(property "Reference" "R8"
 			(at 66.04 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17262,7 +17176,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-KeyBrain"
 				(path "/bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
-					(reference "R9")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -17937,7 +17851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55fd2080-6e52-4388-8ee7-c3c216cbec89")
-		(property "Reference" "R8"
+		(property "Reference" "R7"
 			(at 54.61 49.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18001,7 +17915,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-KeyBrain"
 				(path "/bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
-					(reference "R8")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -18187,7 +18101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5adb486e-a379-49bc-a277-56a9f8e2a1d5")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR035"
 			(at 232.41 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -18247,7 +18161,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-KeyBrain"
 				(path "/bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
-					(reference "#PWR030")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -18343,7 +18257,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "683b6a93-74cd-4683-9d9d-9dbaf92801ff")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR036"
 			(at 245.11 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -18403,7 +18317,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-KeyBrain"
 				(path "/bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
-					(reference "#PWR032")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -18421,7 +18335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "695d591e-9b03-4762-8e79-e9e9cf87a263")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR026"
 			(at 154.94 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -18481,7 +18395,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-KeyBrain"
 				(path "/bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
-					(reference "#PWR039")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -18499,7 +18413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b53d9bf-32f0-4bfe-9f66-850cce8d2850")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR031"
 			(at 217.17 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -18559,7 +18473,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-KeyBrain"
 				(path "/bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
-					(reference "#PWR028")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -18577,7 +18491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f9e7d30-da0b-475e-91c0-2274616a8b14")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR029"
 			(at 208.28 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -18637,7 +18551,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-KeyBrain"
 				(path "/bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
-					(reference "#PWR026")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -18877,7 +18791,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a5a040c-7f06-4199-83ed-b46ef550fd9e")
-		(property "Reference" "R10"
+		(property "Reference" "R9"
 			(at 71.374 175.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18939,7 +18853,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-KeyBrain"
 				(path "/bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
-					(reference "R10")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -19274,7 +19188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f839a55-feed-4be4-ab86-a2c60e0e0813")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR028"
 			(at 200.66 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -19334,7 +19248,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-KeyBrain"
 				(path "/bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
-					(reference "#PWR025")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -19430,7 +19344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dfb41a8-3a36-4dbf-8643-37012dd893d2")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR039"
 			(at 266.7 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -19490,7 +19404,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-KeyBrain"
 				(path "/bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
-					(reference "#PWR036")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -19672,7 +19586,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0fe8ccc-7166-4941-a3d1-7995b0919974")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR030"
 			(at 213.36 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -19732,7 +19646,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-KeyBrain"
 				(path "/bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
-					(reference "#PWR027")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -20055,85 +19969,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 39.37 130.81 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ca2c32a0-4fde-4d2f-a624-9e7632ede772")
-		(property "Reference" "R7"
-			(at 39.37 128.524 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 39.624 130.81 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 39.37 132.588 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 39.37 130.81 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c7204bc3-cc87-4b59-aa81-b8d4753cfe71")
-		)
-		(pin "1"
-			(uuid "5dcd5523-c65e-4164-bc2f-f6a10e411914")
-		)
-		(instances
-			(project "MDR32-K1986BE92FI-KeyBrain"
-				(path "/bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MDR32-K1986BE92FI-KeyBrain:K1986BE92FI")
 		(at 139.7 81.28 0)
 		(unit 1)
@@ -20413,7 +20248,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ccaaae9e-c5a7-4f02-9db3-742c0f4e0887")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR037"
 			(at 261.62 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -20473,7 +20308,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-KeyBrain"
 				(path "/bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
-					(reference "#PWR034")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -20652,7 +20487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2b51c8b-6361-4868-91e6-e4bb325572eb")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR025"
 			(at 143.51 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -20712,7 +20547,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-KeyBrain"
 				(path "/bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
-					(reference "#PWR037")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -21057,7 +20892,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd701463-167d-42fe-9e66-decb21ff79e9")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG02"
 			(at 154.94 180.975 0)
 			(hide yes)
 			(show_name no)
@@ -21117,7 +20952,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-KeyBrain"
 				(path "/bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
-					(reference "#FLG03")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -21212,7 +21047,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dfffcf49-4d76-4a0a-901d-19804abbf530")
-		(property "Reference" "R11"
+		(property "Reference" "R10"
 			(at 90.17 84.074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21274,7 +21109,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-KeyBrain"
 				(path "/bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
-					(reference "R11")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -21610,7 +21445,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef00a85f-cfcb-40a7-955d-5b57dfb4dfae")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR038"
 			(at 262.89 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -21670,7 +21505,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-KeyBrain"
 				(path "/bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
-					(reference "#PWR035")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -22103,7 +21938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdab04b1-6194-4701-a887-1dfa6571b09e")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR034"
 			(at 229.87 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -22163,7 +21998,7 @@
 		(instances
 			(project "MDR32-K1986BE92FI-KeyBrain"
 				(path "/bfe5c5e1-24d1-41fe-819b-b49961f0f3b5"
-					(reference "#PWR029")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)

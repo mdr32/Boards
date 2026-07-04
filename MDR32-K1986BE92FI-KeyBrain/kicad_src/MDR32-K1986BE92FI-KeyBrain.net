@@ -2,7 +2,7 @@
 	(version "E")
 	(design
 		(source "/home/kich/Документы/MDR32/Boards/MDR32-K1986BE92FI-KeyBrain/kicad_src/MDR32-K1986BE92FI-KeyBrain.kicad_sch")
-		(date "2026-06-25T02:58:17")
+		(date "2026-07-04T20:46:16")
 		(tool "Eeschema 10.0.4-10.0.4~ubuntu22.04.1")
 		(sheet
 			(number "1")
@@ -1379,60 +1379,6 @@
 		)
 		(comp
 			(ref "R7")
-			(value "10K")
-			(footprint "Resistor_SMD:R_0603_1608Metric")
-			(description "Resistor")
-			(fields
-				(field
-					(name "Footprint") "Resistor_SMD:R_0603_1608Metric")
-				(field
-					(name "Datasheet")
-				)
-				(field
-					(name "Description") "Resistor")
-			)
-			(libsource
-				(lib "Device")
-				(part "R")
-				(description "Resistor")
-			)
-			(property
-				(name "Sheetname")
-				(value "MDR32-K1986BE92FI-KeyBrain")
-			)
-			(property
-				(name "Sheetfile")
-				(value "MDR32-K1986BE92FI-KeyBrain.kicad_sch")
-			)
-			(property
-				(name "ki_keywords")
-				(value "R res resistor")
-			)
-			(property
-				(name "ki_fp_filters")
-				(value "R_*")
-			)
-			(sheetpath
-				(names "/")
-				(tstamps "/")
-			)
-			(tstamps "ca2c32a0-4fde-4d2f-a624-9e7632ede772")
-			(units
-				(unit
-					(name "A")
-					(pins
-						(pin
-							(num "1")
-						)
-						(pin
-							(num "2")
-						)
-					)
-				)
-			)
-		)
-		(comp
-			(ref "R8")
 			(value "5.1K")
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(description "Resistor")
@@ -1486,7 +1432,7 @@
 			)
 		)
 		(comp
-			(ref "R9")
+			(ref "R8")
 			(value "5.1K")
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(description "Resistor")
@@ -1540,7 +1486,7 @@
 			)
 		)
 		(comp
-			(ref "R10")
+			(ref "R9")
 			(value "1K")
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(description "Resistor")
@@ -1594,7 +1540,7 @@
 			)
 		)
 		(comp
-			(ref "R11")
+			(ref "R10")
 			(value "1K")
 			(footprint "Resistor_SMD:R_0603_1608Metric")
 			(description "Resistor")
@@ -3271,11 +3217,6 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R10")
-				(pin "2")
-				(pintype "passive")
-			)
-			(node
 				(ref "R2")
 				(pin "2")
 				(pintype "passive")
@@ -3301,7 +3242,7 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R7")
+				(ref "R9")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -3984,7 +3925,7 @@
 			(name "/USRLED")
 			(class "Default")
 			(node
-				(ref "R11")
+				(ref "R10")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -3997,22 +3938,6 @@
 		)
 		(net
 			(code "37")
-			(name "/WAKEUP")
-			(class "Default")
-			(node
-				(ref "R7")
-				(pin "1")
-				(pintype "passive")
-			)
-			(node
-				(ref "U3")
-				(pin "17")
-				(pinfunction "WAKEUP_17")
-				(pintype "input")
-			)
-		)
-		(net
-			(code "38")
 			(name "/nRESET")
 			(class "Default")
 			(node
@@ -4028,7 +3953,7 @@
 			)
 		)
 		(net
-			(code "39")
+			(code "38")
 			(name "GND")
 			(class "Default")
 			(node
@@ -4132,12 +4057,12 @@
 				(pintype "passive")
 			)
 			(node
-				(ref "R8")
+				(ref "R7")
 				(pin "2")
 				(pintype "passive")
 			)
 			(node
-				(ref "R9")
+				(ref "R8")
 				(pin "2")
 				(pintype "passive")
 			)
@@ -4227,7 +4152,7 @@
 			)
 		)
 		(net
-			(code "40")
+			(code "39")
 			(name "Net-(D1-A)")
 			(class "Default")
 			(node
@@ -4243,11 +4168,27 @@
 			)
 		)
 		(net
-			(code "41")
+			(code "40")
 			(name "Net-(D2-A)")
 			(class "Default")
 			(node
 				(ref "D2")
+				(pin "2")
+				(pinfunction "A_2")
+				(pintype "passive")
+			)
+			(node
+				(ref "R9")
+				(pin "1")
+				(pintype "passive")
+			)
+		)
+		(net
+			(code "41")
+			(name "Net-(D3-A)")
+			(class "Default")
+			(node
+				(ref "D3")
 				(pin "2")
 				(pinfunction "A_2")
 				(pintype "passive")
@@ -4260,22 +4201,6 @@
 		)
 		(net
 			(code "42")
-			(name "Net-(D3-A)")
-			(class "Default")
-			(node
-				(ref "D3")
-				(pin "2")
-				(pinfunction "A_2")
-				(pintype "passive")
-			)
-			(node
-				(ref "R11")
-				(pin "1")
-				(pintype "passive")
-			)
-		)
-		(net
-			(code "43")
 			(name "Net-(J1-CC1)")
 			(class "Default")
 			(node
@@ -4285,13 +4210,13 @@
 				(pintype "bidirectional")
 			)
 			(node
-				(ref "R9")
+				(ref "R8")
 				(pin "1")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "44")
+			(code "43")
 			(name "Net-(J1-CC2)")
 			(class "Default")
 			(node
@@ -4301,13 +4226,13 @@
 				(pintype "bidirectional")
 			)
 			(node
-				(ref "R8")
+				(ref "R7")
 				(pin "1")
 				(pintype "passive")
 			)
 		)
 		(net
-			(code "45")
+			(code "44")
 			(name "VBUS")
 			(class "Default")
 			(node
@@ -4357,7 +4282,7 @@
 			)
 		)
 		(net
-			(code "46")
+			(code "45")
 			(name "unconnected-(J1-SBU1-PadA8)")
 			(class "Default")
 			(node
@@ -4368,7 +4293,7 @@
 			)
 		)
 		(net
-			(code "47")
+			(code "46")
 			(name "unconnected-(J1-SBU2-PadB8)")
 			(class "Default")
 			(node
@@ -4379,7 +4304,7 @@
 			)
 		)
 		(net
-			(code "48")
+			(code "47")
 			(name "unconnected-(J1-SHIELD-PadSH)")
 			(class "Default")
 			(node
@@ -4390,7 +4315,7 @@
 			)
 		)
 		(net
-			(code "49")
+			(code "48")
 			(name "unconnected-(U1-NC-Pad4)")
 			(class "Default")
 			(node
@@ -4401,7 +4326,7 @@
 			)
 		)
 		(net
-			(code "50")
+			(code "49")
 			(name "unconnected-(U3-NC-Pad37)")
 			(class "Default")
 			(node
@@ -4412,7 +4337,7 @@
 			)
 		)
 		(net
-			(code "51")
+			(code "50")
 			(name "unconnected-(U3-PA2-Pad61)")
 			(class "Default")
 			(node
@@ -4423,7 +4348,7 @@
 			)
 		)
 		(net
-			(code "52")
+			(code "51")
 			(name "unconnected-(U3-PA3-Pad60)")
 			(class "Default")
 			(node
@@ -4434,7 +4359,7 @@
 			)
 		)
 		(net
-			(code "53")
+			(code "52")
 			(name "unconnected-(U3-PB5-Pad50)")
 			(class "Default")
 			(node
@@ -4445,7 +4370,7 @@
 			)
 		)
 		(net
-			(code "54")
+			(code "53")
 			(name "unconnected-(U3-PB6-Pad51)")
 			(class "Default")
 			(node
@@ -4456,7 +4381,7 @@
 			)
 		)
 		(net
-			(code "55")
+			(code "54")
 			(name "unconnected-(U3-PB7-Pad52)")
 			(class "Default")
 			(node
@@ -4467,7 +4392,7 @@
 			)
 		)
 		(net
-			(code "56")
+			(code "55")
 			(name "unconnected-(U3-PB8-Pad53)")
 			(class "Default")
 			(node
@@ -4478,7 +4403,7 @@
 			)
 		)
 		(net
-			(code "57")
+			(code "56")
 			(name "unconnected-(U3-PB9-Pad54)")
 			(class "Default")
 			(node
@@ -4489,7 +4414,7 @@
 			)
 		)
 		(net
-			(code "58")
+			(code "57")
 			(name "unconnected-(U3-PB10-Pad55)")
 			(class "Default")
 			(node
@@ -4500,7 +4425,7 @@
 			)
 		)
 		(net
-			(code "59")
+			(code "58")
 			(name "unconnected-(U3-PC2-Pad40)")
 			(class "Default")
 			(node
@@ -4511,7 +4436,7 @@
 			)
 		)
 		(net
-			(code "60")
+			(code "59")
 			(name "unconnected-(U3-PE0-Pad26)")
 			(class "Default")
 			(node
@@ -4522,7 +4447,7 @@
 			)
 		)
 		(net
-			(code "61")
+			(code "60")
 			(name "unconnected-(U3-PE1-Pad25)")
 			(class "Default")
 			(node
@@ -4533,7 +4458,7 @@
 			)
 		)
 		(net
-			(code "62")
+			(code "61")
 			(name "unconnected-(U3-PE2-Pad22)")
 			(class "Default")
 			(node
@@ -4544,7 +4469,7 @@
 			)
 		)
 		(net
-			(code "63")
+			(code "62")
 			(name "unconnected-(U3-PE3-Pad21)")
 			(class "Default")
 			(node
@@ -4555,7 +4480,7 @@
 			)
 		)
 		(net
-			(code "64")
+			(code "63")
 			(name "unconnected-(U3-PE6-Pad16)")
 			(class "Default")
 			(node
@@ -4566,7 +4491,7 @@
 			)
 		)
 		(net
-			(code "65")
+			(code "64")
 			(name "unconnected-(U3-PE7-Pad15)")
 			(class "Default")
 			(node
@@ -4577,13 +4502,24 @@
 			)
 		)
 		(net
-			(code "66")
+			(code "65")
 			(name "unconnected-(U3-STANBY-Pad14)")
 			(class "Default")
 			(node
 				(ref "U3")
 				(pin "14")
 				(pinfunction "STANBY_14")
+				(pintype "input+no_connect")
+			)
+		)
+		(net
+			(code "66")
+			(name "unconnected-(U3-WAKEUP-Pad17)")
+			(class "Default")
+			(node
+				(ref "U3")
+				(pin "17")
+				(pinfunction "WAKEUP_17")
 				(pintype "input+no_connect")
 			)
 		)
